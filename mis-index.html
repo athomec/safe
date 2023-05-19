@@ -1,163 +1,185 @@
 <!DOCTYPE html>
 <html lang="zh-Hant-TW">
-
 <head>
-	<title>職業安全衛生資訊管理系統</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="職業安全衛生資訊管理系統,職業安全衛生資訊,職業安全衛生,安全衛生資訊">
-	<meta name="description" content="職業安全衛生資訊管理系統" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta property="og:site_name" content="image.png" />
-	<meta property="og:image" content="./assets/images/fb-img.png" />
-	<!--分享設定-->
-	<link rel="icon" href="./assets/images/favicon.png" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-	<link rel="stylesheet"
-		href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/css/smoothness/jquery-ui-1.10.0.custom.min.css" />
-	<!--iconfont設定-->
-	<link rel="stylesheet" href="./assets/style/all.css">
-	<!--css設定-->
+    <title>職業安全衛生資訊管理系統</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="職業安全衛生資訊管理系統,職業安全衛生資訊,職業安全衛生,安全衛生資訊">
+    <meta name="description" content="職業安全衛生資訊管理系統" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:site_name" content="image.png" />
+    <meta property="og:image" content="./assets/images/fb-img.png" />
+    <!--分享設定-->
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/css/smoothness/jquery-ui-1.10.0.custom.min.css" />
+    <!--iconfont設定-->
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <!--css設定-->
 </head>
-
-<body class="scrollbar-primary bg-gray100">
-	<!--頁面開始-->
-	<div class="wrapper">
-		<!--主選單開始-->
-<header>
-	<nav class="navbar fixed-top js-nav">
-		<div class="container position-relative">
-			<a class="navbar-brand" href="index.html">
-				<h1 class="mb-0"><img src="./assets/images/logo.svg" alt="好點POS"></h1>
-			</a>
-			<h2 class="navbar-title mb-0 ms-0 ms-md-3 d-block d-xl-none">職業安全衛生資訊管理系統</h2>
-			<ul class="navbar-mobile">
-				<li class="navbar-mobile-item"><a href="mis-index.html" class="navbar-mobile-link">首頁</a></li>
-				<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">綜合查詢</a></li>
-				<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">資料匯入</a></li>
-				<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">資料匯出</a></li>
-				<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">地圖模式</a></li>
+		<body class="scrollbar-primary bg-gray100">
+			<div class="wrapper">
+				<header>
+				<!--主選單開始-->
+<nav class="navbar fixed-top js-nav">
+	<div class="container position-relative">
+		<a class="navbar-brand" href="index.html">
+			<h1 class="mb-0"><img src="./assets/images/logo.svg" alt="好點POS"></h1>
+		</a>
+		<h2 class="navbar-title mb-0 ms-0 ms-md-3 d-block d-xl-none">職業安全衛生資訊管理系統</h2>
+		<ul class="navbar-mobile">
+			<li class="navbar-mobile-item"><a href="mis-index.html" class="navbar-mobile-link">首頁</a></li>
+			<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">綜合查詢</a></li>
+			<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">資料匯入</a></li>
+			<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">資料匯出</a></li>
+			<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">地圖模式</a></li>
+		</ul>
+		<div class="navbar-function">
+			<h2 class="navbar-function-title">
+				<img src="./assets/images/ic-view-info.svg" alt="資料檢視">
+				<p class="primary-color">資料檢視</p>
+			</h2>
+			<ul class="navbar-function-list">
+				<li class="navbar-function-item"><a href="#" class="navbar-function-link">首頁</a></li>
+				<li class="navbar-function-item"><a href="#" class="navbar-function-link">綜合查詢</a></li>
 			</ul>
-			<div class="navbar-function">
-				<h2 class="navbar-function-title">
-					<img src="./assets/images/ic-view-info.svg" alt="資料檢視">
-					<p class="primary-color">資料檢視</p>
-				</h2>
-				<ul class="navbar-function-list">
-					<li class="navbar-function-item"><a href="#" class="navbar-function-link">首頁</a></li>
-					<li class="navbar-function-item"><a href="#" class="navbar-function-link">綜合查詢</a></li>
-				</ul>
-			</div>
-			<div class="navbar-function">
-				<h2 class="navbar-function-title">
-					<img src="./assets/images/ic-import.svg" alt="資料匯入">
-					<p class="primary-color">資料匯入</p>
-				</h2>
-				<ul class="navbar-function-list">
-					<li class="navbar-function-item"><a href="#" class="navbar-function-link">物質</a></li>
-					<li class="navbar-function-item"><a href="#" class="navbar-function-link">聯絡人</a></li>
-					<li class="navbar-function-item"><a href="#" class="navbar-function-link">應變資材</a></li>
-				</ul>
-			</div>
-			<div class="navbar-function">
-				<h2 class="navbar-function-title">
-					<img src="./assets/images/ic-setting.svg" alt="帳號管理">
-					<p class="primary-color">帳號管理</p>
-				</h2>
-				<ul class="navbar-function-list">
-					<li class="navbar-function-item"><a href="#" class="navbar-function-link">資料維護</a></li>
-					<li class="navbar-function-item"><a href="#" class="navbar-function-link">密碼設定</a></li>
-					<li class="navbar-function-item"><a href="#" class="navbar-function-link">資安設定</a></li>
-				</ul>
-			</div>
-			<ul class="navbar-nav ms-auto" data-con="mis">
-				<li class="nav-item d-none d-sm-block">
-					<a href="#" class="nav-link"><img src="./assets/images/ic-pin.svg" alt="地圖模式">
-						<p>地圖模式</p>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link nav-toggler js-nav-toggler collapsed" data-bs-toggle="collapse"
-						data-bs-target="#navbarCollapse">
-						<div class="nav-toggler-img">
-							<div class="nav-toggler-bar nav-toggler-bar1"></div>
-							<div class="nav-toggler-bar nav-toggler-bar2"></div>
-							<div class="nav-toggler-bar nav-toggler-bar3"></div>
-						</div>
-						<p>功能選單</p>
-					</a>
-				</li>
-			</ul>
-			<div class="collapse navbar-collapse js-navbar-collapse" id="navbarCollapse">
-				<ul class="navbar-dropdown row px-5 py-4">
-					<li class="navbar-dropdown-item col-6">
-						<h2 class="navbar-dropdown-title">資料檢視</h2>
-						<ul>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">首頁</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">綜合查詢</a></li>
-						</ul>
-					</li>
-					<li class="navbar-dropdown-item col-6">
-						<h2 class="navbar-dropdown-title">資料匯入</h2>
-						<ul>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">物質</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">聯絡人</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">應變資材</a></li>
-						</ul>
-					</li>
-					<li class="navbar-dropdown-item col-6">
-						<h2 class="navbar-dropdown-title">帳號管理</h2>
-						<ul>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">資料維護</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">密碼設定</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">資安設定</a></li>
-						</ul>
-					</li>
-					<li class="navbar-dropdown-item col-6">
-						<h2 class="navbar-dropdown-title">地圖功能</h2>
-						<ul>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">繪圖</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">查詢</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">顯示報表</a></li>
-						</ul>
-					</li>
-					<li class="navbar-dropdown-item col-6">
-						<h2 class="navbar-dropdown-title">資料檢視</h2>
-						<ul>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">首頁</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">綜合查詢</a></li>
-						</ul>
-					</li>
-					<li class="navbar-dropdown-item col-6">
-						<h2 class="navbar-dropdown-title">資料匯入</h2>
-						<ul>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">物質</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">聯絡人</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">應變資材</a></li>
-						</ul>
-					</li>
-					<li class="navbar-dropdown-item col-6">
-						<h2 class="navbar-dropdown-title">帳號管理</h2>
-						<ul>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">資料維護</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">密碼設定</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">資安設定</a></li>
-						</ul>
-					</li>
-					<li class="navbar-dropdown-item col-6">
-						<h2 class="navbar-dropdown-title">系統功能</h2>
-						<ul>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">地圖模式</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">列表模式</a></li>
-							<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">登出系統</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
 		</div>
-	</nav>
-</header>
+		<div class="navbar-function">
+			<h2 class="navbar-function-title">
+				<img src="./assets/images/ic-import.svg" alt="資料匯入">
+				<p class="primary-color">資料匯入</p>
+			</h2>
+			<ul class="navbar-function-list">
+				<li class="navbar-function-item"><a href="#" class="navbar-function-link">物質</a></li>
+				<li class="navbar-function-item"><a href="#" class="navbar-function-link">聯絡人</a></li>
+				<li class="navbar-function-item"><a href="#" class="navbar-function-link">應變資材</a></li>
+			</ul>
+		</div>
+		<div class="navbar-function">
+			<h2 class="navbar-function-title">
+				<img src="./assets/images/ic-setting.svg" alt="帳號管理">
+				<p class="primary-color">帳號管理</p>
+			</h2>
+			<ul class="navbar-function-list">
+				<li class="navbar-function-item"><a href="#" class="navbar-function-link">資料維護</a></li>
+				<li class="navbar-function-item"><a href="#" class="navbar-function-link">密碼設定</a></li>
+				<li class="navbar-function-item"><a href="#" class="navbar-function-link">資安設定</a></li>
+			</ul>
+		</div>
+		<ul class="navbar-nav ms-auto" data-con="mis">
+			<li class="nav-item d-none d-sm-block">
+				<a href="#" class="nav-link"><img src="./assets/images/ic-pin.svg" alt="地圖模式">
+					<p>地圖模式</p>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link nav-toggler js-nav-toggler collapsed" data-bs-toggle="collapse"
+					data-bs-target="#navbarCollapse">
+					<div class="nav-toggler-img">
+						<div class="nav-toggler-bar nav-toggler-bar1"></div>
+						<div class="nav-toggler-bar nav-toggler-bar2"></div>
+						<div class="nav-toggler-bar nav-toggler-bar3"></div>
+					</div>
+					<p>功能選單</p>
+				</a>
+			</li>
+		</ul>
+		<div class="collapse navbar-collapse js-navbar-collapse" id="navbarCollapse">
+			<ul class="navbar-dropdown row px-5 py-4">
+				<li class="navbar-dropdown-item col-6">
+					<h2 class="navbar-dropdown-title">資料檢視</h2>
+					<ul>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">首頁</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">綜合查詢</a>
+						</li>
+					</ul>
+				</li>
+				<li class="navbar-dropdown-item col-6">
+					<h2 class="navbar-dropdown-title">資料匯入</h2>
+					<ul>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">物質</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">聯絡人</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">應變資材</a>
+						</li>
+					</ul>
+				</li>
+				<li class="navbar-dropdown-item col-6">
+					<h2 class="navbar-dropdown-title">帳號管理</h2>
+					<ul>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">資料維護</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">密碼設定</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">資安設定</a>
+						</li>
+					</ul>
+				</li>
+				<li class="navbar-dropdown-item col-6">
+					<h2 class="navbar-dropdown-title">地圖功能</h2>
+					<ul>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">繪圖</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">查詢</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">顯示報表</a>
+						</li>
+					</ul>
+				</li>
+				<li class="navbar-dropdown-item col-6">
+					<h2 class="navbar-dropdown-title">資料檢視</h2>
+					<ul>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">首頁</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">綜合查詢</a>
+						</li>
+					</ul>
+				</li>
+				<li class="navbar-dropdown-item col-6">
+					<h2 class="navbar-dropdown-title">資料匯入</h2>
+					<ul>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">物質</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">聯絡人</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">應變資材</a>
+						</li>
+					</ul>
+				</li>
+				<li class="navbar-dropdown-item col-6">
+					<h2 class="navbar-dropdown-title">帳號管理</h2>
+					<ul>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">資料維護</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">密碼設定</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">資安設定</a>
+						</li>
+					</ul>
+				</li>
+				<li class="navbar-dropdown-item col-6">
+					<h2 class="navbar-dropdown-title">系統功能</h2>
+					<ul>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">地圖模式</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">列表模式</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">登出系統</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<!--主選單結束-->
+				</header>
+				<!--內容開始-->
+				<!--麵包屑開始-->
 <nav class="bg-primary-color">
 	<div class="container">
 		<ol class="breadcrumb">
@@ -167,7 +189,7 @@
 		</ol>
 	</div>
 </nav>
-<!--主選單結束-->
+<!--麵包屑結束-->
 <section class="section">
 	<div class="container">
 		<h3 class="title">訊息資料列表</h3>
@@ -804,82 +826,83 @@
 		</div>
 	</div>
 </section>
-			<!--footer開始-->
-			<footer class="bg-primary-color py-4">
-				<div class="footer container d-flex">
-					<a href="#" class="gotop"><img src="./assets/images/ic-gotop.svg" alt="gotop"></a>
-					<img src="./assets/images/footer-logo.svg" alt="CTSP" class="footer-logo mb-3 mb-xl-0 me-xl-3">
-					<p class="mb-3 mb-xl-0">國家科學及技術委員會 中部科學園區 <br class="d-inline d-md-none"> @2023 All Right Reserved.
-						<br>
-						地址：407台中市西屯區中科路1號　<br class="d-inline d-md-none">服務電話：02-2565-8588
-					</p>
-					<ul class="footer-nav">
-						<li class="footer-item">
-							<a href="#" target="_blank" class="footer-link">交通位置</a>
-						</li>
-						<li class="footer-item">
-							<a href="#" target="_blank" class="footer-link">隱私權宣告</a>
-						</li>
-						<li class="footer-item">
-							<a href="#" target="_blank" class="footer-link pe-0">資訊安全政策</a>
-						</li>
-					</ul>
-				</div>
-			</footer>
-			<div class="bg-white py-2">
-				<div class="footer-bottom container">
-					<p class="primary-color">系統廠商：元緒科技股份有限公司<br class="d-inline d-md-none"><span
-							class="ms-3">諮詢電話：04-2230-3477</span></p>
-					<p class="gray600">本網站支援Edge、Firefox及Chrome瀏覽器，最佳瀏覽解析度 1920X1080</p>
-				</div>
+				<!--內容結束-->
+				<!--footer開始-->
+				<footer class="bg-primary-color py-4">
+    <div class="footer container d-flex">
+        <a href="#" class="gotop"><img src="./assets/images/ic-gotop.svg" alt="gotop"></a>
+        <img src="./assets/images/footer-logo.svg" alt="CTSP" class="footer-logo mb-3 mb-xl-0 me-xl-3">
+        <p class="mb-3 mb-xl-0">國家科學及技術委員會 中部科學園區 <br class="d-inline d-md-none"> @2023 All Right Reserved.
+            <br>
+            地址：407台中市西屯區中科路1號　<br class="d-inline d-md-none">服務電話：02-2565-8588
+        </p>
+        <ul class="footer-nav">
+            <li class="footer-item">
+                <a href="#" target="_blank" class="footer-link">交通位置</a>
+            </li>
+            <li class="footer-item">
+                <a href="#" target="_blank" class="footer-link">隱私權宣告</a>
+            </li>
+            <li class="footer-item">
+                <a href="#" target="_blank" class="footer-link pe-0">資訊安全政策</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<div class="bg-white py-2">
+    <div class="footer-bottom container">
+        <p class="primary-color">系統廠商：元緒科技股份有限公司<br class="d-inline d-md-none"><span
+                class="ms-3">諮詢電話：04-2230-3477</span></p>
+        <p class="gray600">本網站支援Edge、Firefox及Chrome瀏覽器，最佳瀏覽解析度 1920X1080</p>
+    </div>
+</div>
+				<!--footer結束-->
 			</div>
-			<!--footer結束-->
-	</div>
-	<!-- SCRIPTS -->
-	<script src="assets/js/jquery-3.3.1.min.js"></script>
-	<script src='assets/js/jquery-ui.min.js'></script>
-	<script src="assets/js/bootstrap.bundle.js"></script>
-	<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
-	<script src="assets/js/moment-with-locales.min.js"></script>
-	<script src="assets/js/tempusdominus-bootstrap-4.min.js"></script>
-	<script src="assets/js/script.js"></script>
-	<script src="assets/js/aos.js"></script>
-	<script>
-		AOS.init();
-	</script>
-	<script>
-		$(function () {
-			$('#export-from').datetimepicker({
-				locale: 'zh-tw',
-				defaultDate: new Date(),
-				format: 'L',
-				icons: {
-					time: "bi bi-clock",
-					date: "bi bi-calendar",
-					up: "bi bi-arrow-up",
-					down: "bi bi-arrow-down",
-					previous: "bi bi-chevron-left",
-					next: "bi bi-chevron-right",
-					today: "bi bi-clock",
-					clear: "bi bi-trash3"
-				}
-			});
-			$('#export-to').datetimepicker({
-				locale: 'zh-tw',
-				defaultDate: new Date(),
-				format: 'L',
-				icons: {
-					time: "bi bi-clock",
-					date: "bi bi-calendar",
-					up: "bi bi-arrow-up",
-					down: "bi bi-arrow-down",
-					previous: "bi bi-chevron-left",
-					next: "bi bi-chevron-right",
-					today: "bi bi-clock",
-					clear: "bi bi-trash3"
-				}
-			});
-		});
-	</script>
-</body>
+			<!-- SCRIPTS -->
+			<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src='assets/js/jquery-ui.min.js'></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="assets/js/moment-with-locales.min.js"></script>
+<script src="assets/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    $(function () {
+        $('#export-from').datetimepicker({
+            locale: 'zh-tw',
+            defaultDate: new Date(),
+            format: 'L',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        });
+        $('#export-to').datetimepicker({
+            locale: 'zh-tw',
+            defaultDate: new Date(),
+            format: 'L',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        });
+    });
+</script>
+		</body>
 </html>
