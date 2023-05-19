@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <g id="ic-view-info" transform="translate(0.026)">
+    <g id="Group_17" data-name="Group 17">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="14" height="14" transform="translate(-0.026)" fill="none"/>
+    </g>
+    <g id="Group_19" data-name="Group 19" transform="translate(1.197 0)">
+      <g id="Group_18" data-name="Group 18">
+        <path id="Path_17" data-name="Path 17" d="M4.273,3.545H5.545V5.455h6.364V3.545h1.273V6.727h1.273V3.545a1.276,1.276,0,0,0-1.273-1.273h-2.66a1.9,1.9,0,0,0-3.589,0H4.273A1.276,1.276,0,0,0,3,3.545v8.909a1.276,1.276,0,0,0,1.273,1.273H7.455V12.455H4.273ZM8.727,2.273a.636.636,0,1,1-.636.636A.638.638,0,0,1,8.727,2.273Z" transform="translate(-3 -1)" fill="#ed831b"/>
+        <path id="Path_18" data-name="Path 18" d="M17.282,16.391a3.064,3.064,0,0,0,.445-1.527,2.864,2.864,0,1,0-2.864,2.864,3.064,3.064,0,0,0,1.527-.445L18.109,19,19,18.109Zm-2.418.064a1.591,1.591,0,1,1,1.591-1.591A1.575,1.575,0,0,1,14.864,16.455Z" transform="translate(-6.273 -5)" fill="#ed831b"/>
+      </g>
+    </g>
+  </g>
+</svg>
