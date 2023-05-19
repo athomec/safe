@@ -8981,6 +8981,15 @@ input::placeholder, textarea::placeholder {
     input::placeholder, textarea::placeholder {
       font-size: 1rem; } }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: #000;
+  background: #ffe8d2; }
+
+::selection {
+  color: #000;
+  background: #ffe8d2; }
+
 /*-----------------距離樣式---------------------*/
 .mb-xs {
   margin-bottom: 0.75rem; }
