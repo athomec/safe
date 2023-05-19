@@ -12487,12 +12487,24 @@ header {
     border: 1px solid #ccc; }
     @media (max-width: 767px) {
       .navbar-dropdown {
-        flex-direction: column; } }
+        height: calc(100% - 63px);
+        overflow: auto; } }
     @media (max-width: 767px) {
       .navbar-dropdown-item {
-        border-bottom: 1px solid #ED831B;
+        position: relative;
         margin-bottom: 1rem;
-        padding-bottom: 0.3rem; } }
+        padding-bottom: 0.3rem; }
+        .navbar-dropdown-item::after {
+          content: "";
+          position: absolute;
+          left: 4px;
+          bottom: 0;
+          display: block;
+          width: calc(100% - 8px);
+          height: 1px;
+          background: #ED831B; }
+        .navbar-dropdown-item:nth-last-child(1)::after, .navbar-dropdown-item:nth-last-child(2)::after {
+          display: none; } }
     .navbar-dropdown-title {
       font-size: 1.125rem;
       color: #292929;
@@ -12559,9 +12571,9 @@ header {
   .nav-toggler:after {
     content: "";
     position: absolute;
-    width: 100%;
+    width: calc(100% + 8px);
     height: 40px;
-    left: 0;
+    left: -4px;
     bottom: -16px;
     background: #ED831B;
     border-radius: 0.3rem 0.3rem 0 0; }
