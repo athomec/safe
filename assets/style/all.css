@@ -12487,7 +12487,6 @@ header {
     border: 1px solid #ccc; }
     @media (max-width: 767px) {
       .navbar-dropdown {
-        height: calc(100% - 63px);
         overflow: auto; } }
     @media (max-width: 767px) {
       .navbar-dropdown-item {
