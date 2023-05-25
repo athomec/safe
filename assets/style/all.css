@@ -8964,22 +8964,22 @@ ol {
 
 input::-moz-placeholder, textarea::-moz-placeholder {
   color: #ccc !important;
-  font-size: 1.125rem; }
+  font-size: 1rem; }
 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   color: #ccc !important;
-  font-size: 1.125rem; }
+  font-size: 1rem; }
 
 input::placeholder, textarea::placeholder {
   color: #ccc !important;
-  font-size: 1.125rem; }
+  font-size: 1rem; }
   @media (max-width: 767px) {
     input::-moz-placeholder, textarea::-moz-placeholder {
-      font-size: 1rem; }
+      font-size: 0.9rem; }
     input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-      font-size: 1rem; }
+      font-size: 0.9rem; }
     input::placeholder, textarea::placeholder {
-      font-size: 1rem; } }
+      font-size: 0.9rem; } }
 
 ::-moz-selection {
   /* Code for Firefox */
@@ -9559,6 +9559,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #ED831B;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9574,6 +9575,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #ffe8d2;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9589,6 +9591,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #1379BB;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9604,6 +9607,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #F9BF00;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9619,6 +9623,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #D92F2F;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9634,6 +9639,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #E64343;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9649,6 +9655,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #F26C30;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9664,6 +9671,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #FF9130;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9679,6 +9687,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #FFA42D;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9694,6 +9703,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #000;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9709,6 +9719,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #292929;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9724,6 +9735,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #525252;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9739,6 +9751,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #7a7a7a;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9754,6 +9767,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #a3a3a3;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9769,6 +9783,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #ccc;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9784,6 +9799,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #d6d6d6;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9799,6 +9815,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #e0e0e0;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9814,6 +9831,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #ebebeb;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9829,6 +9847,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #f5f5f5;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9844,6 +9863,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #fff;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9859,6 +9879,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #8d8d8d;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9874,6 +9895,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #9FB1C2;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9889,6 +9911,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #3E659F;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9904,6 +9927,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #51BDC5;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9919,6 +9943,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #61A7BE;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9934,6 +9959,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #7DBF71;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9949,6 +9975,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #F6F6F6;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9964,6 +9991,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #f8f8f7;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9979,6 +10007,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #4976E1;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -9994,6 +10023,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #409A4C;
   padding: 4px 16px;
   border-radius: 0.5rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10010,6 +10040,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10040,6 +10071,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10070,6 +10102,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10100,6 +10133,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10130,6 +10164,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10160,6 +10195,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10190,6 +10226,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10220,6 +10257,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10250,6 +10288,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10280,6 +10319,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10310,6 +10350,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10340,6 +10381,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10370,6 +10412,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10400,6 +10443,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10430,6 +10474,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10460,6 +10505,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10490,6 +10536,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10520,6 +10567,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10550,6 +10598,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10580,6 +10629,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10610,6 +10660,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10640,6 +10691,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10670,6 +10722,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10700,6 +10753,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10730,6 +10784,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10760,6 +10815,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10790,6 +10846,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10820,6 +10877,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10850,6 +10908,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10880,6 +10939,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 0.5rem;
   position: relative;
   padding: 3px 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -11231,7 +11291,11 @@ input::placeholder, textarea::placeholder {
   color: #ED831B;
   position: relative;
   padding-left: 20px;
-  display: block; }
+  display: block;
+  font-size: 1.5rem; }
+  @media (max-width: 991px) {
+    .title {
+      font-size: 1.3rem; } }
   .title:before {
     content: "";
     display: block;
@@ -11247,12 +11311,13 @@ input::placeholder, textarea::placeholder {
   display: flex;
   color: #ED831B;
   position: relative;
-  font-size: 1.3rem; }
+  font-size: 1.125rem; }
   @media (max-width: 991px) {
     .subtitle {
-      font-size: 1.125rem; } }
+      font-size: 1rem; } }
   .subtitle img {
-    margin-right: 4px; }
+    margin-right: 4px;
+    width: 24px; }
 
 .sub-subtitle {
   color: #ED831B;
@@ -11715,7 +11780,7 @@ input::placeholder, textarea::placeholder {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   flex-wrap: wrap; }
   @media (max-width: 767px) {
     .top-function {
@@ -11746,12 +11811,13 @@ input::placeholder, textarea::placeholder {
       .top-function-list-item:last-child {
         margin-right: 0; }
       .top-function-list-item img {
+        width: 20px;
         margin-right: 4px; }
   .top-function button {
-    font-size: 1rem; }
+    font-size: 0.9rem; }
     @media (max-width: 767px) {
       .top-function button {
-        font-size: 0.9rem; } }
+        font-size: 0.8rem; } }
 
 /*---------------------表格樣式---------------------*/
 .table-bd-primary-color th,
@@ -11929,7 +11995,7 @@ input::placeholder, textarea::placeholder {
         display: none; } }
   .table-rwd td {
     display: table-cell;
-    font-size: 1.125rem;
+    font-size: 1rem;
     padding: 0.75rem 1.5rem;
     color: #525252 !important;
     vertical-align: middle; }
@@ -11938,7 +12004,7 @@ input::placeholder, textarea::placeholder {
         padding: 0.5rem 1rem; } }
     @media (max-width: 767px) {
       .table-rwd td {
-        font-size: 1rem;
+        font-size: 0.9rem;
         display: block;
         text-align: left !important; }
         .table-rwd td:nth-child(1) {
@@ -11982,6 +12048,9 @@ input::placeholder, textarea::placeholder {
     @media (max-width: 767px) {
       .table-rwd-notice:before {
         display: none; } }
+  .table-rwd-notice img {
+    width: 20px;
+    margin-top: 2px; }
 
 @media (max-width: 767px) {
   .table-rwd-label td {
@@ -13296,7 +13365,7 @@ footer {
 
 .section {
   padding-top: 64px;
-  font-size: 1.125rem; }
+  font-size: 1rem; }
   @media (max-width: 1550px) {
     .section {
       padding-top: 32px; } }
@@ -13333,11 +13402,11 @@ footer {
   border: none;
   border-bottom: 1px solid #7a7a7a;
   border-radius: 0;
-  font-size: 1.125rem; }
+  font-size: 1rem; }
   @media (max-width: 767px) {
     .form-control,
     .form-select {
-      font-size: 1rem; } }
+      font-size: 0.9rem; } }
 
 .form-control[data-con="upload"] {
   border-radius: 0.3rem;
@@ -13359,10 +13428,10 @@ textarea.form-control {
 
 .form-select {
   background: url("../images/ic-dropdown.svg") no-repeat right center;
-  font-size: 1.125rem; }
+  font-size: 1rem; }
   @media (max-width: 767px) {
     .form-select {
-      font-size: 1rem; } }
+      font-size: 0.9rem; } }
 
 .form-check-input:checked[type=checkbox] {
   background: url("../images/ic-check.svg") no-repeat center #ED831B;
@@ -13405,10 +13474,10 @@ textarea.form-control {
     color: #525252 !important;
     padding-right: 1.5rem;
     text-align: left;
-    font-size: 1.125rem; }
+    font-size: 1rem; }
     @media (max-width: 767px) {
       .form-dropdown button {
-        font-size: 1rem; } }
+        font-size: 0.9rem; } }
     .form-dropdown button.active {
       color: #ED831B !important; }
   .form-dropdown-content {
