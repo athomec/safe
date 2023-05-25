@@ -9564,7 +9564,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-primary-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-primary-color img {
     margin-right: 4px; }
 
@@ -9579,7 +9579,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-primary-light-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-primary-light-color img {
     margin-right: 4px; }
 
@@ -9594,7 +9594,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-primary-dark-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-primary-dark-color img {
     margin-right: 4px; }
 
@@ -9609,7 +9609,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-secondary-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-secondary-color img {
     margin-right: 4px; }
 
@@ -9624,7 +9624,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-danger-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-danger-color img {
     margin-right: 4px; }
 
@@ -9639,7 +9639,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-danger-dark-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-danger-dark-color img {
     margin-right: 4px; }
 
@@ -9654,7 +9654,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-alert-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-alert-color img {
     margin-right: 4px; }
 
@@ -9669,7 +9669,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-alert-light-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-alert-light-color img {
     margin-right: 4px; }
 
@@ -9684,7 +9684,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-alert-xlight-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-alert-xlight-color img {
     margin-right: 4px; }
 
@@ -9699,7 +9699,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-black:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-black img {
     margin-right: 4px; }
 
@@ -9714,7 +9714,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-gray900:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-gray900 img {
     margin-right: 4px; }
 
@@ -9729,7 +9729,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-gray800:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-gray800 img {
     margin-right: 4px; }
 
@@ -9744,7 +9744,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-gray700:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-gray700 img {
     margin-right: 4px; }
 
@@ -9759,7 +9759,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-gray600:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-gray600 img {
     margin-right: 4px; }
 
@@ -9774,7 +9774,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-gray500:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-gray500 img {
     margin-right: 4px; }
 
@@ -9789,7 +9789,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-gray400:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-gray400 img {
     margin-right: 4px; }
 
@@ -9804,7 +9804,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-gray300:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-gray300 img {
     margin-right: 4px; }
 
@@ -9819,7 +9819,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-gray200:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-gray200 img {
     margin-right: 4px; }
 
@@ -9834,7 +9834,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-gray100:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-gray100 img {
     margin-right: 4px; }
 
@@ -9849,7 +9849,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-white:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-white img {
     margin-right: 4px; }
 
@@ -9864,7 +9864,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-base-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-base-color img {
     margin-right: 4px; }
 
@@ -9879,7 +9879,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-base-light-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-base-light-color img {
     margin-right: 4px; }
 
@@ -9894,7 +9894,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-tertiary-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-tertiary-color img {
     margin-right: 4px; }
 
@@ -9909,7 +9909,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-assist-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-assist-color img {
     margin-right: 4px; }
 
@@ -9924,7 +9924,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-assist-dark-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-assist-dark-color img {
     margin-right: 4px; }
 
@@ -9939,7 +9939,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-bright-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-bright-color img {
     margin-right: 4px; }
 
@@ -9954,7 +9954,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-pale-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-pale-color img {
     margin-right: 4px; }
 
@@ -9969,7 +9969,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-pale-light-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-pale-light-color img {
     margin-right: 4px; }
 
@@ -9984,7 +9984,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-special-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-special-color img {
     margin-right: 4px; }
 
@@ -9999,7 +9999,7 @@ input::placeholder, textarea::placeholder {
   align-items: center; }
   .btn-dark-stable-color:hover {
     color: #fff !important;
-    filter: brightness(90%) contrast(130%); }
+    filter: brightness(80%) contrast(180%); }
   .btn-dark-stable-color img {
     margin-right: 4px; }
 
