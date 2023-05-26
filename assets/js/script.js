@@ -15,6 +15,19 @@ $(function () {//JS開頭
 			$(".js-nav").removeClass("up");
 		}
 	});
+
+	var backdrop = null;
+
+	$('.js-nav-toggler').click(function () {
+		if (backdrop === null) {
+			backdrop = $('<div class="modal-backdrop custom-backdrop"></div>');
+			$('body').append(backdrop);
+			backdrop.show();
+		} else {
+			backdrop.toggle();
+		}
+	});
+
 	RESIZE();
 
 	function RESIZE() {
