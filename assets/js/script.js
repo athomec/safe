@@ -22,11 +22,12 @@ $(function () {//JS開頭
 		if (backdrop === null) {
 			backdrop = $('<div class="modal-backdrop custom-backdrop"></div>');
 			$('body').append(backdrop);
-			backdrop.show();
+			backdrop.fadeIn();
 		} else {
-			backdrop.toggle();
+			backdrop.fadeToggle();
 		}
 	});
+	在上述
 
 	RESIZE();
 

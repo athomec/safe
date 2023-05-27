@@ -9553,7 +9553,7 @@ input::placeholder, textarea::placeholder {
   background: #409A4C !important; }
 
 .custom-backdrop {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
   /* 半透明黑色背景 */
   z-index: 10; }
 
