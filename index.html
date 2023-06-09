@@ -121,6 +121,19 @@
                 clear: "bi bi-trash3"
             }
         });
+         $(document).ready(function () {
+            var myModal = $('#modal-alert');
+            setTimeout(function () {
+                // 使用淡入效果顯示 modal
+                myModal.modal('show').css('opacity', 0).animate({ opacity: 1 }, 300);
+            }, 1000); // 顯示 modal，延遲 1 秒
+            setTimeout(function () {
+                // 使用淡出效果關閉 modal
+                myModal.animate({ opacity: 0 }, 300, function () {
+                    myModal.modal('hide');
+                });
+            }, 4000); // 關閉 modal，延遲 4 秒
+        });
     });
 </script>
 		</body>

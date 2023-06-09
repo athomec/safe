@@ -179,7 +179,22 @@
 <!--主選單結束-->
 				</header>
 				<!--內容開始-->
-				<!--麵包屑開始-->
+				<!--訊息視窗開始-->
+<div class="modal" id="modal-alert" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content px-3">
+			<div class="modal-header">
+				<h5 class="modal-title primary-color">警告或提醒視窗</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+			</div>
+			<div class="modal-body text-center">
+				<p>內容文字內容文字內容文字內容<br>文字內容文字內容文字內容文字內容文字</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--訊息視窗結束-->
+<!--麵包屑開始-->
 <nav class="bg-primary-color">
 	<div class="container">
 		<ol class="breadcrumb">
@@ -901,6 +916,19 @@
                 today: "bi bi-clock",
                 clear: "bi bi-trash3"
             }
+        });
+         $(document).ready(function () {
+            var myModal = $('#modal-alert');
+            setTimeout(function () {
+                // 使用淡入效果顯示 modal
+                myModal.modal('show').css('opacity', 0).animate({ opacity: 1 }, 300);
+            }, 1000); // 顯示 modal，延遲 1 秒
+            setTimeout(function () {
+                // 使用淡出效果關閉 modal
+                myModal.animate({ opacity: 0 }, 300, function () {
+                    myModal.modal('hide');
+                });
+            }, 4000); // 關閉 modal，延遲 4 秒
         });
     });
 </script>
