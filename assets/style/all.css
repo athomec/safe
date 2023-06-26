@@ -10919,13 +10919,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-primary-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-primary-color:hover {
     transform: scale(1.01); }
+  .btn-default-primary-color img {
+    margin-right: 4px; }
 
 .btn-default-primary-light-color {
   border-radius: 0.5rem !important;
@@ -10937,13 +10939,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-primary-light-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-primary-light-color:hover {
     transform: scale(1.01); }
+  .btn-default-primary-light-color img {
+    margin-right: 4px; }
 
 .btn-default-primary-dark-color {
   border-radius: 0.5rem !important;
@@ -10955,13 +10959,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-primary-dark-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-primary-dark-color:hover {
     transform: scale(1.01); }
+  .btn-default-primary-dark-color img {
+    margin-right: 4px; }
 
 .btn-default-secondary-color {
   border-radius: 0.5rem !important;
@@ -10973,13 +10979,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-secondary-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-secondary-color:hover {
     transform: scale(1.01); }
+  .btn-default-secondary-color img {
+    margin-right: 4px; }
 
 .btn-default-danger-color {
   border-radius: 0.5rem !important;
@@ -10991,13 +10999,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-danger-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-danger-color:hover {
     transform: scale(1.01); }
+  .btn-default-danger-color img {
+    margin-right: 4px; }
 
 .btn-default-danger-dark-color {
   border-radius: 0.5rem !important;
@@ -11009,13 +11019,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-danger-dark-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-danger-dark-color:hover {
     transform: scale(1.01); }
+  .btn-default-danger-dark-color img {
+    margin-right: 4px; }
 
 .btn-default-alert-color {
   border-radius: 0.5rem !important;
@@ -11027,13 +11039,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-alert-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-alert-color:hover {
     transform: scale(1.01); }
+  .btn-default-alert-color img {
+    margin-right: 4px; }
 
 .btn-default-alert-light-color {
   border-radius: 0.5rem !important;
@@ -11045,13 +11059,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-alert-light-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-alert-light-color:hover {
     transform: scale(1.01); }
+  .btn-default-alert-light-color img {
+    margin-right: 4px; }
 
 .btn-default-alert-xlight-color {
   border-radius: 0.5rem !important;
@@ -11063,13 +11079,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-alert-xlight-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-alert-xlight-color:hover {
     transform: scale(1.01); }
+  .btn-default-alert-xlight-color img {
+    margin-right: 4px; }
 
 .btn-default-black {
   border-radius: 0.5rem !important;
@@ -11081,13 +11099,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-black:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-black:hover {
     transform: scale(1.01); }
+  .btn-default-black img {
+    margin-right: 4px; }
 
 .btn-default-gray900 {
   border-radius: 0.5rem !important;
@@ -11099,13 +11119,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-gray900:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-gray900:hover {
     transform: scale(1.01); }
+  .btn-default-gray900 img {
+    margin-right: 4px; }
 
 .btn-default-gray800 {
   border-radius: 0.5rem !important;
@@ -11117,13 +11139,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-gray800:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-gray800:hover {
     transform: scale(1.01); }
+  .btn-default-gray800 img {
+    margin-right: 4px; }
 
 .btn-default-gray700 {
   border-radius: 0.5rem !important;
@@ -11135,13 +11159,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-gray700:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-gray700:hover {
     transform: scale(1.01); }
+  .btn-default-gray700 img {
+    margin-right: 4px; }
 
 .btn-default-gray600 {
   border-radius: 0.5rem !important;
@@ -11153,13 +11179,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-gray600:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-gray600:hover {
     transform: scale(1.01); }
+  .btn-default-gray600 img {
+    margin-right: 4px; }
 
 .btn-default-gray500 {
   border-radius: 0.5rem !important;
@@ -11171,13 +11199,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-gray500:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-gray500:hover {
     transform: scale(1.01); }
+  .btn-default-gray500 img {
+    margin-right: 4px; }
 
 .btn-default-gray400 {
   border-radius: 0.5rem !important;
@@ -11189,13 +11219,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-gray400:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-gray400:hover {
     transform: scale(1.01); }
+  .btn-default-gray400 img {
+    margin-right: 4px; }
 
 .btn-default-gray300 {
   border-radius: 0.5rem !important;
@@ -11207,13 +11239,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-gray300:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-gray300:hover {
     transform: scale(1.01); }
+  .btn-default-gray300 img {
+    margin-right: 4px; }
 
 .btn-default-gray200 {
   border-radius: 0.5rem !important;
@@ -11225,13 +11259,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-gray200:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-gray200:hover {
     transform: scale(1.01); }
+  .btn-default-gray200 img {
+    margin-right: 4px; }
 
 .btn-default-gray100 {
   border-radius: 0.5rem !important;
@@ -11243,13 +11279,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-gray100:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-gray100:hover {
     transform: scale(1.01); }
+  .btn-default-gray100 img {
+    margin-right: 4px; }
 
 .btn-default-white {
   border-radius: 0.5rem !important;
@@ -11261,13 +11299,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-white:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-white:hover {
     transform: scale(1.01); }
+  .btn-default-white img {
+    margin-right: 4px; }
 
 .btn-default-base-color {
   border-radius: 0.5rem !important;
@@ -11279,13 +11319,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-base-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-base-color:hover {
     transform: scale(1.01); }
+  .btn-default-base-color img {
+    margin-right: 4px; }
 
 .btn-default-base-light-color {
   border-radius: 0.5rem !important;
@@ -11297,13 +11339,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-base-light-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-base-light-color:hover {
     transform: scale(1.01); }
+  .btn-default-base-light-color img {
+    margin-right: 4px; }
 
 .btn-default-tertiary-color {
   border-radius: 0.5rem !important;
@@ -11315,13 +11359,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-tertiary-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-tertiary-color:hover {
     transform: scale(1.01); }
+  .btn-default-tertiary-color img {
+    margin-right: 4px; }
 
 .btn-default-assist-color {
   border-radius: 0.5rem !important;
@@ -11333,13 +11379,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-assist-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-assist-color:hover {
     transform: scale(1.01); }
+  .btn-default-assist-color img {
+    margin-right: 4px; }
 
 .btn-default-assist-dark-color {
   border-radius: 0.5rem !important;
@@ -11351,13 +11399,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-assist-dark-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-assist-dark-color:hover {
     transform: scale(1.01); }
+  .btn-default-assist-dark-color img {
+    margin-right: 4px; }
 
 .btn-default-bright-color {
   border-radius: 0.5rem !important;
@@ -11369,13 +11419,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-bright-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-bright-color:hover {
     transform: scale(1.01); }
+  .btn-default-bright-color img {
+    margin-right: 4px; }
 
 .btn-default-pale-color {
   border-radius: 0.5rem !important;
@@ -11387,13 +11439,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-pale-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-pale-color:hover {
     transform: scale(1.01); }
+  .btn-default-pale-color img {
+    margin-right: 4px; }
 
 .btn-default-pale-light-color {
   border-radius: 0.5rem !important;
@@ -11405,13 +11459,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-pale-light-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-pale-light-color:hover {
     transform: scale(1.01); }
+  .btn-default-pale-light-color img {
+    margin-right: 4px; }
 
 .btn-default-special-color {
   border-radius: 0.5rem !important;
@@ -11423,13 +11479,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-special-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-special-color:hover {
     transform: scale(1.01); }
+  .btn-default-special-color img {
+    margin-right: 4px; }
 
 .btn-default-stable-color {
   border-radius: 0.5rem !important;
@@ -11441,13 +11499,15 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
-  display: flex;
+  display: inline-flex !important;
   justify-content: center;
   align-items: center; }
   .btn-default-stable-color:before {
     filter: brightness(80%) contrast(180%); }
   .btn-default-stable-color:hover {
     transform: scale(1.01); }
+  .btn-default-stable-color img {
+    margin-right: 4px; }
 
 .btn-dropdown {
   border-radius: 80px;
