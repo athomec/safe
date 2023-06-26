@@ -14624,12 +14624,12 @@ section[data-con="links"] {
 /*--------------------側邊選單開始------------------*/
 .side-menu {
   width: 20%;
-  height: 100%;
   margin-right: 48px;
   flex-shrink: 0;
   transition: all 0.2s ease;
   z-index: 20;
-  position: relative; }
+  position: relative;
+  border-right: 1px solid #e0e0e0; }
   @media (max-width: 1550px) {
     .side-menu {
       width: 220px;
