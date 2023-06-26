@@ -12828,28 +12828,26 @@ input:focus, select:focus {
   border-radius: 8px; }
 
 /*-----------------表單樣式---------------------*/
-.input-group {
-  border-bottom: 1px solid #ED831B; }
-  .input-group label {
+.input-group label {
+  font-size: 0.9rem; }
+
+.input-group input {
+  padding-left: 0;
+  height: 33px; }
+  .input-group input::-moz-placeholder {
     font-size: 0.9rem; }
-  .input-group input {
-    border-radius: 50rem;
-    padding-left: 0;
-    border: 0;
-    height: 33px; }
-    .input-group input::-moz-placeholder {
-      font-size: 0.9rem; }
-    .input-group input:-ms-input-placeholder {
-      font-size: 0.9rem; }
-    .input-group input::placeholder {
-      font-size: 0.9rem; }
-  .input-group button {
-    border-radius: 0;
-    background: #fff;
-    border: 0;
-    height: 33px; }
-    .input-group button:hover {
-      opacity: 0.8; }
+  .input-group input:-ms-input-placeholder {
+    font-size: 0.9rem; }
+  .input-group input::placeholder {
+    font-size: 0.9rem; }
+
+.input-group button {
+  border-radius: 0;
+  background: #fff;
+  border: 0;
+  height: 33px; }
+  .input-group button:hover {
+    opacity: 0.8; }
 
 .inside-bar button {
   padding: 5px;
