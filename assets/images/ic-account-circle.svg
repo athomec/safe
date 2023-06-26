@@ -1,0 +1,11 @@
+<svg id="ic-account-circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_129" data-name="Group 129">
+    <rect id="Rectangle_115" data-name="Rectangle 115" width="24" height="24" fill="none"/>
+  </g>
+  <g id="Group_131" data-name="Group 131">
+    <g id="Group_130" data-name="Group 130">
+      <path id="Path_153" data-name="Path 153" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2ZM7.35,18.5a7.957,7.957,0,0,1,9.3,0,7.957,7.957,0,0,1-9.3,0Zm10.79-1.38a9.951,9.951,0,0,0-12.28,0,8,8,0,1,1,12.28,0Z" fill="#ed831b"/>
+      <path id="Path_154" data-name="Path 154" d="M12,6a3.5,3.5,0,1,0,3.5,3.5A3.5,3.5,0,0,0,12,6Zm0,5a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,12,11Z" fill="#ed831b"/>
+    </g>
+  </g>
+</svg>

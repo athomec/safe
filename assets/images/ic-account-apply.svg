@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <g id="ic-account-apply" transform="translate(-0.5 -0.086)">
+    <g id="Group_122" data-name="Group 122" transform="translate(0.5 0.086)">
+      <rect id="Rectangle_108" data-name="Rectangle 108" width="72" height="72" fill="none"/>
+    </g>
+    <g id="Group_123" data-name="Group 123" transform="translate(2.5 12.086)">
+      <path id="Path_149" data-name="Path 149" d="M58.448,18.936V9.974H52.4v8.961H43.33V24.91H52.4v8.961h6.047V24.91h9.071V18.936ZM25.188,27.9A11.949,11.949,0,1,0,13.094,15.948,12.019,12.019,0,0,0,25.188,27.9Zm0-17.923a5.975,5.975,0,1,1-6.047,5.974A6.029,6.029,0,0,1,25.188,9.974Zm19.321,25.57a42.383,42.383,0,0,0-38.641,0A8.861,8.861,0,0,0,1,43.489v8.3H49.377v-8.3A8.861,8.861,0,0,0,44.509,35.544ZM43.33,45.819H7.047v-2.33a2.9,2.9,0,0,1,1.572-2.629,36.965,36.965,0,0,1,16.569-4,36.965,36.965,0,0,1,16.569,4,2.9,2.9,0,0,1,1.572,2.629Z" transform="translate(-1 -4)" fill="#ed831b"/>
+    </g>
+  </g>
+</svg>

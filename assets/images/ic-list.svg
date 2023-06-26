@@ -1,0 +1,10 @@
+<svg id="ic-list" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="Group_9" data-name="Group 9">
+    <path id="Path_10" data-name="Path 10" d="M0,0H34V34H0Z" fill="none"/>
+  </g>
+  <g id="Group_11" data-name="Group 11" transform="translate(5 5)">
+    <g id="Group_10" data-name="Group 10">
+      <path id="Path_11" data-name="Path 11" d="M19,3H5.667A2.663,2.663,0,0,0,3.013,5.667L3,24.333A2.663,2.663,0,0,0,5.653,27h18.68A2.675,2.675,0,0,0,27,24.333V11ZM5.667,24.333V5.667h12v6.667h6.667v12ZM11,9.667A1.333,1.333,0,1,1,9.667,8.333,1.337,1.337,0,0,1,11,9.667ZM11,15a1.333,1.333,0,1,1-1.333-1.333A1.337,1.337,0,0,1,11,15Zm0,5.333A1.333,1.333,0,1,1,9.667,19,1.337,1.337,0,0,1,11,20.333Z" transform="translate(-3 -3)" fill="#ed831b"/>
+    </g>
+  </g>
+</svg>

@@ -20,9 +20,9 @@
 			<div class="wrapper">
 				<header>
 				<!--主選單開始-->
-<nav class="navbar fixed-top js-nav">
-	<div class="container position-relative">
-		<a class="navbar-brand" href="index.html">
+<nav class="navbar fixed-top">
+	<div class="container position-relative flex-nowrap">
+		<a class="navbar-brand flex-shrink-0" href="index.html">
 			<h1 class="mb-0"><img src="./assets/images/logo.svg" alt="好點POS"></h1>
 		</a>
 		<h2 class="navbar-title mb-0 ms-0 ms-md-3 d-block d-xl-none">職業安全衛生資訊管理系統</h2>
@@ -33,42 +33,49 @@
 			<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">資料匯出</a></li>
 			<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">地圖模式</a></li>
 		</ul>
-		<div class="navbar-function">
-			<h2 class="navbar-function-title">
-				<img src="./assets/images/ic-view-info.svg" alt="資料檢視">
-				<p class="primary-color">資料檢視</p>
-			</h2>
-			<ul class="navbar-function-list">
-				<li class="navbar-function-item"><a href="#" class="navbar-function-link">首頁</a></li>
-				<li class="navbar-function-item"><a href="#" class="navbar-function-link">綜合查詢</a></li>
-			</ul>
-		</div>
-		<div class="navbar-function">
-			<h2 class="navbar-function-title">
-				<img src="./assets/images/ic-import.svg" alt="資料匯入">
-				<p class="primary-color">資料匯入</p>
-			</h2>
-			<ul class="navbar-function-list">
-				<li class="navbar-function-item"><a href="#" class="navbar-function-link">物質</a></li>
-				<li class="navbar-function-item"><a href="#" class="navbar-function-link">聯絡人</a></li>
-				<li class="navbar-function-item"><a href="#" class="navbar-function-link">應變資材</a></li>
-			</ul>
-		</div>
-		<div class="navbar-function">
-			<h2 class="navbar-function-title">
-				<img src="./assets/images/ic-setting.svg" alt="帳號管理">
-				<p class="primary-color">帳號管理</p>
-			</h2>
-			<ul class="navbar-function-list">
-				<li class="navbar-function-item"><a href="#" class="navbar-function-link">資料維護</a></li>
-				<li class="navbar-function-item"><a href="#" class="navbar-function-link">密碼設定</a></li>
-				<li class="navbar-function-item"><a href="#" class="navbar-function-link">資安設定</a></li>
-			</ul>
-		</div>
-		<ul class="navbar-nav ms-auto" data-con="mis">
+		<div class="navbar-function flex-row w-100 flex-shrink-1">
+			<div class="w-100 position-relative">
+				<label for="fast-locate" class="form-label primary-color mb-0">快速定位</label>
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="業者(名稱、統編、工登)、郵遞區號、經緯度"
+						data-bs-toggle="collapse" data-bs-target="#fast-locate-autofill">
+					<button class="btn ps-3 pe-0" type="button">
+						<img src="./assets/images/ic-search.svg" alt="搜尋">
+					</button>
+				</div>
+				<div class="form-dropdown-content collapse" id="fast-locate-autofill">
+					<div class="card card-body p-0">
+						<ul class="input-group-dropdown" data-bs-toggle="collapse"
+							data-bs-target="#fast-locate-autofill">
+							<li>位置1</li>
+							<li>位置2</li>
+							<li>位置3</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 			<li class="nav-item d-none d-sm-block">
-				<a href="gis-index.html" class="nav-link"><img src="./assets/images/ic-pin.svg" alt="地圖模式">
-					<p>地圖模式</p>
+				<a href="gis-index.html" class="nav-link"><img src="./assets/images/ic-locate.svg" alt="現在位置">
+					<p>現在位置</p>
+				</a>
+			</li>
+		</div>
+		<div class="navbar-function">
+			<h2 class="navbar-function-title">
+				<img src="./assets/images/ic-pin-function.svg" alt="地圖功能">
+				<p class="primary-color">地圖功能</p>
+			</h2>
+			<ul class="navbar-function-list">
+				<li class="navbar-function-item"><a href="#" class="navbar-function-link">繪圖</a></li>
+				<li class="navbar-function-item"><a href="#" class="navbar-function-link">查詢</a></li>
+				<li class="navbar-function-item"><a href="#" class="navbar-function-link">顯示</a></li>
+				<li class="navbar-function-item"><a href="#" class="navbar-function-link">底圖</a></li>
+			</ul>
+		</div>
+		<ul class="navbar-nav" data-con="mis">
+			<li class="nav-item d-none d-sm-block">
+				<a href="mis-index.html" class="nav-link"><img src="./assets/images/ic-list.svg" alt="列表模式">
+					<p>列表模式</p>
 				</a>
 			</li>
 			<li class="nav-item">
@@ -85,6 +92,32 @@
 		</ul>
 		<div class="collapse navbar-collapse js-navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-dropdown row px-5 py-4">
+				<li class="navbar-dropdown-item col-12 d-xl-none" data-con="locate">
+					<label for="fast-locate" class="form-label primary-color mb-0 flex-shrink-0 me-3">快速定位</label>
+					<div class="input-group me-4">
+						<input type="text" class="form-control" placeholder="業者(名稱、統編、工登)、郵遞區號、經緯度"
+							data-bs-toggle="collapse" data-bs-target="#fast-locate-autofill">
+						<button class="btn ps-3 pe-0" type="button">
+							<img src="./assets/images/ic-search.svg" alt="搜尋">
+						</button>
+						<div class="form-dropdown-content collapse w-100" id="fast-locate-autofill">
+							<div class="card card-body p-0">
+								<ul class="input-group-dropdown" data-bs-toggle="collapse" data-bs-target="#fast-locate-autofill">
+									<li>位置1</li>
+									<li>位置2</li>
+									<li>位置3</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+
+						<a href="gis-index.html" class="nav-link flex-md-row flex-shrink-0">
+							<img src="./assets/images/ic-locate.svg" alt="現在位置" class="me-1">
+							<p>現在位置</p>
+						</a>
+
+				</li>
 				<li class="navbar-dropdown-item col-6 col-md">
 					<h2 class="navbar-dropdown-title">資料檢視</h2>
 					<ul>
@@ -124,6 +157,8 @@
 						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">查詢</a>
 						</li>
 						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">顯示報表</a>
+						</li>
+						<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">底圖</a>
 						</li>
 					</ul>
 				</li>
@@ -176,28 +211,28 @@
 <!--主選單結束-->
 				</header>
 				<!--內容開始-->
-				<!--訊息視窗開始-->
-<div class="modal" id="modal-alert" tabindex="-1">
-	<div class="modal-dialog">
-		<div class="modal-content px-3">
-			<div class="modal-header">
-				<h5 class="modal-title primary-color">警告或提醒視窗</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-			</div>
-			<div class="modal-body text-center">
-				<p>內容文字內容文字內容文字內容<br>文字內容文字內容文字內容文字內容文字</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!--訊息視窗結束-->
-<!--麵包屑開始-->
+				<!--麵包屑開始-->
 <nav class="bg-primary-color">
 	<div class="container">
 		<ol class="breadcrumb">
-			<li class="breadcrumb-item"><a href="mis-index.html" class="breadcrumb-link">首頁</a></li>
-			<li class="breadcrumb-item"><a href="#" class="breadcrumb-link">資訊管理</a></li>
-			<li class="breadcrumb-item active" class="breadcrumb-link">訊息資料列表</li>
+			<li class="breadcrumb-item"><a href="mis-index.html" class="breadcrumb-link">室內地圖</a></li>
+			<li class="breadcrumb-item"><a href="#" class="breadcrumb-link">台灣積體電路 - 15B廠</a></li>
+			<li class="breadcrumb-item">
+				<select class="form-select">
+					<option selected>FAB1</option>
+					<option value="1">One</option>
+					<option value="2">Two</option>
+					<option value="3">Three</option>
+				</select>
+			</li>
+			<li class="breadcrumb-item">
+				<select class="form-select">
+					<option selected>F1</option>
+					<option value="1">One</option>
+					<option value="2">Two</option>
+					<option value="3">Three</option>
+				</select>
+			</li>
 		</ol>
 	</div>
 </nav>
@@ -215,7 +250,8 @@
 						</div>
 						<div class="col">
 							<div class="form-dropdown">
-								<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#rule">
+								<button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+									data-bs-target="#rule">
 									物質法規
 								</button>
 								<div class="form-dropdown-content collapse" id="rule">
@@ -295,7 +331,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="rule10">
+													<input class="form-check-input" type="checkbox" value=""
+														id="rule10">
 													<label class="form-check-label" for="rule10">
 														複選複選
 													</label>
@@ -303,7 +340,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="rule11">
+													<input class="form-check-input" type="checkbox" value=""
+														id="rule11">
 													<label class="form-check-label" for="rule11">
 														複選複選
 													</label>
@@ -311,7 +349,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="rule12">
+													<input class="form-check-input" type="checkbox" value=""
+														id="rule12">
 													<label class="form-check-label" for="rule12">
 														複選複選
 													</label>
@@ -319,7 +358,8 @@
 											</div>
 											<div class="col-4">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="rule13">
+													<input class="form-check-input" type="checkbox" value=""
+														id="rule13">
 													<label class="form-check-label" for="rule13">
 														複選複選
 													</label>
@@ -327,7 +367,8 @@
 											</div>
 											<div class="col-4">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="rule14">
+													<input class="form-check-input" type="checkbox" value=""
+														id="rule14">
 													<label class="form-check-label" for="rule14">
 														複選複選
 													</label>
@@ -335,7 +376,8 @@
 											</div>
 											<div class="col-4">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="rule15">
+													<input class="form-check-input" type="checkbox" value=""
+														id="rule15">
 													<label class="form-check-label" for="rule15">
 														複選複選
 													</label>
@@ -348,7 +390,8 @@
 						</div>
 						<div class="col">
 							<div class="form-dropdown">
-								<button class="btn btn-primary active" type="button" data-bs-toggle="collapse" data-bs-target="#type">
+								<button class="btn btn-primary active" type="button" data-bs-toggle="collapse"
+									data-bs-target="#type">
 									物質危害分類
 								</button>
 								<div class="form-dropdown-content collapse" id="type">
@@ -428,7 +471,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="type10">
+													<input class="form-check-input" type="checkbox" value=""
+														id="type10">
 													<label class="form-check-label" for="type10">
 														複選複選
 													</label>
@@ -436,7 +480,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="type11">
+													<input class="form-check-input" type="checkbox" value=""
+														id="type11">
 													<label class="form-check-label" for="type11">
 														複選複選
 													</label>
@@ -444,7 +489,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="type12">
+													<input class="form-check-input" type="checkbox" value=""
+														id="type12">
 													<label class="form-check-label" for="type12">
 														複選複選
 													</label>
@@ -452,7 +498,8 @@
 											</div>
 											<div class="col-4">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="type13">
+													<input class="form-check-input" type="checkbox" value=""
+														id="type13">
 													<label class="form-check-label" for="type13">
 														複選複選
 													</label>
@@ -460,7 +507,8 @@
 											</div>
 											<div class="col-4">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="type14">
+													<input class="form-check-input" type="checkbox" value=""
+														id="type14">
 													<label class="form-check-label" for="type14">
 														複選複選
 													</label>
@@ -468,7 +516,8 @@
 											</div>
 											<div class="col-4">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="type15">
+													<input class="form-check-input" type="checkbox" value=""
+														id="type15">
 													<label class="form-check-label" for="type15">
 														複選複選
 													</label>
@@ -487,7 +536,8 @@
 						</div>
 						<div class="col">
 							<div class="form-dropdown">
-								<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#base">
+								<button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+									data-bs-target="#base">
 									業者基地
 								</button>
 								<div class="form-dropdown-content collapse" id="base">
@@ -567,7 +617,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="base10">
+													<input class="form-check-input" type="checkbox" value=""
+														id="base10">
 													<label class="form-check-label" for="base10">
 														複選複選
 													</label>
@@ -575,7 +626,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="base11">
+													<input class="form-check-input" type="checkbox" value=""
+														id="base11">
 													<label class="form-check-label" for="base11">
 														複選複選
 													</label>
@@ -583,7 +635,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="base12">
+													<input class="form-check-input" type="checkbox" value=""
+														id="base12">
 													<label class="form-check-label" for="base12">
 														複選複選
 													</label>
@@ -591,7 +644,8 @@
 											</div>
 											<div class="col-4">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="base13">
+													<input class="form-check-input" type="checkbox" value=""
+														id="base13">
 													<label class="form-check-label" for="base13">
 														複選複選
 													</label>
@@ -599,7 +653,8 @@
 											</div>
 											<div class="col-4">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="base14">
+													<input class="form-check-input" type="checkbox" value=""
+														id="base14">
 													<label class="form-check-label" for="base14">
 														複選複選
 													</label>
@@ -607,7 +662,8 @@
 											</div>
 											<div class="col-4">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="base15">
+													<input class="form-check-input" type="checkbox" value=""
+														id="base15">
 													<label class="form-check-label" for="base15">
 														複選複選
 													</label>
@@ -620,7 +676,8 @@
 						</div>
 						<div class="col">
 							<div class="form-dropdown">
-								<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#estate">
+								<button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+									data-bs-target="#estate">
 									業者產業
 								</button>
 								<div class="form-dropdown-content collapse" id="estate">
@@ -628,7 +685,8 @@
 										<div class="row gx-2">
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate1">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate1">
 													<label class="form-check-label" for="estate1">
 														複選複選
 													</label>
@@ -636,7 +694,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate2">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate2">
 													<label class="form-check-label" for="estate2">
 														複選複選
 													</label>
@@ -644,7 +703,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate3">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate3">
 													<label class="form-check-label" for="estate3">
 														複選複選
 													</label>
@@ -652,7 +712,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate4">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate4">
 													<label class="form-check-label" for="estate4">
 														複選複選
 													</label>
@@ -660,7 +721,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate5">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate5">
 													<label class="form-check-label" for="estate5">
 														複選複選
 													</label>
@@ -668,7 +730,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate6">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate6">
 													<label class="form-check-label" for="estate6">
 														複選複選
 													</label>
@@ -676,7 +739,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate7">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate7">
 													<label class="form-check-label" for="estate7">
 														複選複選
 													</label>
@@ -684,7 +748,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate8">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate8">
 													<label class="form-check-label" for="estate8">
 														複選複選
 													</label>
@@ -692,7 +757,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate9">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate9">
 													<label class="form-check-label" for="estate9">
 														複選複選
 													</label>
@@ -700,7 +766,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate10">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate10">
 													<label class="form-check-label" for="estate10">
 														複選複選
 													</label>
@@ -708,7 +775,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate11">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate11">
 													<label class="form-check-label" for="estate11">
 														複選複選
 													</label>
@@ -716,7 +784,8 @@
 											</div>
 											<div class="col-4 mb-2">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate12">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate12">
 													<label class="form-check-label" for="estate12">
 														複選複選
 													</label>
@@ -724,7 +793,8 @@
 											</div>
 											<div class="col-4">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate13">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate13">
 													<label class="form-check-label" for="estate13">
 														複選複選
 													</label>
@@ -732,7 +802,8 @@
 											</div>
 											<div class="col-4">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate14">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate14">
 													<label class="form-check-label" for="estate14">
 														複選複選
 													</label>
@@ -740,7 +811,8 @@
 											</div>
 											<div class="col-4">
 												<div class="form-check">
-													<input class="form-check-input" type="checkbox" value="" id="estate15">
+													<input class="form-check-input" type="checkbox" value=""
+														id="estate15">
 													<label class="form-check-label" for="estate15">
 														複選複選
 													</label>
@@ -763,9 +835,12 @@
 		<div class="section-container mb-3">
 			<div class="top-function mb-3">
 				<p class="top-function-info gray700">本次上傳資料，共 <span class="primary-color">112</span> 筆</p>
-				<button class="btn btn-border-primary-color ms-auto me-2"><img src="./assets/images/ic-report.svg" alt="報表"> 報表</button>
-				<button class="btn btn-border-primary-color me-2"><img src="./assets/images/ic-add.svg" alt="新增"> 新增</button>
-				<button class="btn btn-border-primary-color"><img src="./assets/images/ic-export.svg" alt="匯出"> 匯出</button>
+				<button class="btn btn-border-primary-color ms-auto me-2"><img src="./assets/images/ic-report.svg"
+						alt="報表"> 報表</button>
+				<button class="btn btn-border-primary-color me-2"><img src="./assets/images/ic-add.svg" alt="新增">
+					新增</button>
+				<button class="btn btn-border-primary-color"><img src="./assets/images/ic-export.svg" alt="匯出">
+					匯出</button>
 			</div>
 			<table class="table-rwd table-striped mb-4">
 				<thead>
@@ -779,42 +854,58 @@
 					<tr>
 						<td class="text-center" scope="row">2023/05/05</td>
 						<td class="text-center">公告</td>
-						<td><p>112年「機械切割夾捲危害預防」教育預防機械切割夾捲危害預防」教育預防」</p></td>
+						<td>
+							<p>112年「機械切割夾捲危害預防」教育預防機械切割夾捲危害預防」教育預防」</p>
+						</td>
 					</tr>
 					<tr>
 						<td class="text-center" scope="row">2023/05/05</td>
 						<td class="text-center">會議</td>
-						<td><p>職安署訂於本（112）年4月至5月辦預防4月至5月辦預防4月至5月辦預防」</p></td>
+						<td>
+							<p>職安署訂於本（112）年4月至5月辦預防4月至5月辦預防4月至5月辦預防」</p>
+						</td>
 					</tr>
 					<tr>
 						<td class="text-center" scope="row">2023/05/05</td>
 						<td class="text-center">公告</td>
-						<td><p>112年「機械切割夾捲危害預防」教育預防機械切割夾捲危害預防」教育預防」</p></td>
+						<td>
+							<p>112年「機械切割夾捲危害預防」教育預防機械切割夾捲危害預防」教育預防」</p>
+						</td>
 					</tr>
 					<tr>
 						<td class="text-center" scope="row">2023/05/05</td>
 						<td class="text-center">會議</td>
-						<td><p>職安署訂於本（112）年4月至5月辦預防4月至5月辦預防4月至5月辦預防」</p></td>
+						<td>
+							<p>職安署訂於本（112）年4月至5月辦預防4月至5月辦預防4月至5月辦預防」</p>
+						</td>
 					</tr>
 					<tr>
 						<td class="text-center" scope="row">2023/05/05</td>
 						<td class="text-center">公告</td>
-						<td><p>112年「機械切割夾捲危害預防」教育預防機械切割夾捲危害預防」教育預防」</p></td>
+						<td>
+							<p>112年「機械切割夾捲危害預防」教育預防機械切割夾捲危害預防」教育預防」</p>
+						</td>
 					</tr>
 					<tr>
 						<td class="text-center" scope="row">2023/05/05</td>
 						<td class="text-center">公告</td>
-						<td><p>職安署訂於本（112）年4月至5月辦預防4月至5月辦預防4月至5月辦預防」</p></td>
+						<td>
+							<p>職安署訂於本（112）年4月至5月辦預防4月至5月辦預防4月至5月辦預防」</p>
+						</td>
 					</tr>
 					<tr>
 						<td class="text-center" scope="row">2023/05/05</td>
 						<td class="text-center">公告</td>
-						<td><p>112年「機械切割夾捲危害預防」教育預防機械切割夾捲危害預防」教育預防」</p></td>
+						<td>
+							<p>112年「機械切割夾捲危害預防」教育預防機械切割夾捲危害預防」教育預防」</p>
+						</td>
 					</tr>
 					<tr>
 						<td class="text-center" scope="row">2023/05/05</td>
 						<td class="text-center">公告</td>
-						<td><p>職安署訂於本（112）年4月至5月辦預防4月至5月辦預防4月至5月辦預防」</p></td>
+						<td>
+							<p>職安署訂於本（112）年4月至5月辦預防4月至5月辦預防4月至5月辦預防」</p>
+						</td>
 					</tr>
 					<tr>
 						<td class="text-center" scope="row">2023/05/05</td>
@@ -825,14 +916,18 @@
 			</table>
 			<nav>
 				<ul class="pagination mb-3">
-					<li class="page-item"><a class="page-link page-link-function btn-dark-gray500" href="#"><img src="./assets/images/ic-first.svg" alt="最前頁"></a></li>
-					<li class="page-item"><a class="page-link page-link-function btn-dark-gray500" href="#"><img src="./assets/images/ic-prev.svg" alt="前一頁"></a></li>
+					<li class="page-item"><a class="page-link page-link-function btn-dark-gray500" href="#"><img
+								src="./assets/images/ic-first.svg" alt="最前頁"></a></li>
+					<li class="page-item"><a class="page-link page-link-function btn-dark-gray500" href="#"><img
+								src="./assets/images/ic-prev.svg" alt="前一頁"></a></li>
 					<li class="page-item"><a class="page-link" href="#">1</a></li>
 					<li class="page-item active"><a class="page-link" href="#">2</a></li>
 					<li class="page-item"><a class="page-link" href="#">3</a></li>
 					<li class="page-item"><a class="page-link" href="#">4</a></li>
-					<li class="page-item"><a class="page-link page-link-function btn-dark-gray500" href="#"><img src="./assets/images/ic-next.svg" alt="下一頁"></a></li>
-					<li class="page-item"><a class="page-link page-link-function btn-dark-gray500" href="#"><img src="./assets/images/ic-last.svg" alt="最後頁"></a></li>
+					<li class="page-item"><a class="page-link page-link-function btn-dark-gray500" href="#"><img
+								src="./assets/images/ic-next.svg" alt="下一頁"></a></li>
+					<li class="page-item"><a class="page-link page-link-function btn-dark-gray500" href="#"><img
+								src="./assets/images/ic-last.svg" alt="最後頁"></a></li>
 				</ul>
 			</nav>
 		</div>

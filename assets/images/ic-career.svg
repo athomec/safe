@@ -1,0 +1,15 @@
+<svg id="ic-career" xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="Group_147" data-name="Group 147" transform="translate(0)">
+    <rect id="Rectangle_125" data-name="Rectangle 125" width="46" height="46" fill="none"/>
+    <rect id="Rectangle_126" data-name="Rectangle 126" width="46" height="46" fill="none"/>
+  </g>
+  <g id="Group_149" data-name="Group 149" transform="translate(0 6.936)">
+    <g id="Group_148" data-name="Group 148">
+      <path id="Path_181" data-name="Path 181" d="M26.032,11.016V7H22.016v4.016H18v4.016h4.016v4.016h4.016V15.032h4.016V11.016Z" transform="translate(15.952 -0.976)" fill="#ed831b"/>
+      <path id="Path_182" data-name="Path 182" d="M12.032,20.064A8.032,8.032,0,1,0,4,12.032,8.03,8.03,0,0,0,12.032,20.064Zm0-12.048a4.016,4.016,0,1,1-4.016,4.016A4.028,4.028,0,0,1,12.032,8.016Z" transform="translate(3.484 -4)" fill="#ed831b"/>
+      <path id="Path_183" data-name="Path 183" d="M16.064,13C10.7,13,0,15.691,0,21.032v6.024H32.128V21.032C32.128,15.691,21.425,13,16.064,13ZM28.112,23.04H4.016V21.052c.4-1.446,6.626-4.036,12.048-4.036s11.646,2.59,12.048,4.016Z" transform="translate(0 5.072)" fill="#ed831b"/>
+      <path id="Path_184" data-name="Path 184" d="M12.51,4.05a12.009,12.009,0,0,1,0,15.863,7.992,7.992,0,0,0,0-15.863Z" transform="translate(11.273 -3.95)" fill="#ed831b"/>
+      <path id="Path_185" data-name="Path 185" d="M16.53,13.83A8.508,8.508,0,0,1,19.482,20.2v6.024H23.5V20.2C23.5,17.284,20.3,15.155,16.53,13.83Z" transform="translate(14.897 5.908)" fill="#ed831b"/>
+    </g>
+  </g>
+</svg>

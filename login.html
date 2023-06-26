@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <title>職業安全衛生資訊管理系統</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="職業安全衛生資訊管理系統,職業安全衛生資訊,職業安全衛生,安全衛生資訊">
+    <meta name="description" content="職業安全衛生資訊管理系統" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:site_name" content="image.png" />
+    <meta property="og:image" content="./assets/images/fb-img.png" />
+    <!--分享設定-->
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <!--iconfont設定-->
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <!--css設定-->
+</head>
+		<body class="scrollbar-primary">
+			<div class="wrapper">
+				<header>
+				<!--主選單開始-->
+<nav class="navbar navbar-expand-md fixed-top js-nav">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <h1 class="mb-0"><img src="./assets/images/logo.svg" alt="好點POS"></h1>
+        </a>
+        <h2 class="navbar-title mb-0 ms-0 ms-md-3 me-auto">職業安全衛生資訊管理系統</h2>
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="login.html" class="nav-link"><img src="./assets/images/ic-login.svg" alt="登入">
+                    <p>登入</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--主選單結束-->
+				</header>
+                <!--內容開始-->
+				<section class="window-wrapper bg-gray100 w-100">
+    <div class="container">
+        <div class="window-box login">
+            <h2 class="main-title mb-0 justify-content-center mb-4">
+                系統登入
+            </h2>
+            <label class="visually-hidden" for="account">帳號</label>
+            <input type="text" class="form-control form-control-lg mb-3 mb-md-4" id="account" placeholder="請輸入帳號"
+                data-con="account">
+            <label class="visually-hidden" for="password">密碼</label>
+            <div class="input-group mb-3 mb-md-4">
+                <input type="text" class="form-control form-control-lg" id="password" placeholder="請輸入密碼" data-con="password">
+                <button class="btn js-toggler" type="button" data-con="view">
+                    顯示/隱藏密碼
+                </button>
+              </div>
+            <p class="login-notice mb-3">因應資安規定，同一IP如連續登入失敗多次，將自動封鎖無法登入，若需解鎖，請聯繫系統管理員，謝謝。</p>
+            <div class="d-flex mb-3">
+                <a href="forget.html" class="d-flex link-primary-color ms-auto"><img src="./assets/images/ic-forget.svg" alt="忘記密碼">忘記密碼</a>
+            </div>
+            <div class="row mb-3 mb-md-4">
+                <div class="col-sm-6 col-md-7">
+                    <label class="visually-hidden" for="verification">驗證碼</label>
+                    <input type="text" class="form-control form-control-lg mb-2 mb-sm-0" id="verification" placeholder="請輸入驗證碼" data-con="verification">
+                </div>
+                <div class="col-8 col-sm-6 col-md-5">
+                   <div class="login-code">
+                    <img src="./assets/images/demo-code.png" class="me-2">
+                    <button class="btn btn-border-primary-color"><img src="./assets/images/ic-refresh.svg" alt="驗證碼"></button>
+                   </div>
+                </div>
+            </div>
+                <button class="login-btn btn btn-dark-primary-color rounded py-2 mb-5 w-100 hvr-float-shadow" type="button"
+                    onclick="location.href='otp.html';">
+                    登入
+                </button>
+            <h3 class="login-title mb-3">尚未申請帳號請先填寫註冊單</h3>
+            <button class="login-btn btn btn-border-primary-color rounded py-2 w-100" type="button">
+                    註冊帳號
+                </button>
+        </div>
+    </div>
+</section>
+                <!--內容結束-->
+				<!--footer開始-->
+				<footer class="bg-primary-color py-4">
+    <div class="footer container d-flex">
+        <a href="#" class="gotop"><img src="./assets/images/ic-gotop.svg" alt="gotop"></a>
+        <img src="./assets/images/footer-logo.svg" alt="CTSP" class="footer-logo mb-3 mb-xl-0 me-xl-3">
+        <p class="mb-3 mb-xl-0">國家科學及技術委員會 中部科學園區 <br class="d-inline d-md-none"> @2023 All Right Reserved.
+            <br>
+            地址：407台中市西屯區中科路1號　<br class="d-inline d-md-none">服務電話：02-2565-8588
+        </p>
+        <ul class="footer-nav">
+            <li class="footer-item">
+                <a href="#" target="_blank" class="footer-link">交通位置</a>
+            </li>
+            <li class="footer-item">
+                <a href="#" target="_blank" class="footer-link">隱私權宣告</a>
+            </li>
+            <li class="footer-item">
+                <a href="#" target="_blank" class="footer-link pe-0">資訊安全政策</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<div class="bg-white py-2">
+    <div class="footer-bottom container">
+        <p class="primary-color">系統廠商：元緒科技股份有限公司<br class="d-inline d-md-none"><span
+                class="ms-3">諮詢電話：04-2230-3477</span></p>
+        <p class="gray600">本網站支援Edge、Firefox及Chrome瀏覽器，最佳瀏覽解析度 1920X1080</p>
+    </div>
+</div>
+				<!--footer結束-->
+			</div>
+			<!-- SCRIPTS -->
+			<script src="assets/js/jquery-3.7.0.min.js"></script>
+<script src='assets/js/jquery-ui.min.js'></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="assets/js/moment-with-locales.min.js"></script>
+<script src="assets/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    $(function () {
+        $('#export-from').datetimepicker({
+            locale: 'zh-tw',
+            defaultDate: new Date(),
+            format: 'L',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        });
+        $('#export-to').datetimepicker({
+            locale: 'zh-tw',
+            defaultDate: new Date(),
+            format: 'L',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        });
+         $(document).ready(function () {
+            var myModal = $('#modal-alert');
+            setTimeout(function () {
+                // 使用淡入效果顯示 modal
+                myModal.modal('show').css('opacity', 0).animate({ opacity: 1 }, 300);
+            }, 1000); // 顯示 modal，延遲 1 秒
+            setTimeout(function () {
+                // 使用淡出效果關閉 modal
+                myModal.animate({ opacity: 0 }, 300, function () {
+                    myModal.modal('hide');
+                });
+            }, 4000); // 關閉 modal，延遲 4 秒
+        });
+    });
+</script>
+			<script>
+				$('.topic-slider').slick({
+					dots: false,
+					infinite: false,
+					slidesToShow: 3,
+					slidesToScroll: 3,
+					autoplay: true,
+					autoplaySpeed: 3000,
+					responsive: [
+						{
+							breakpoint: 600,
+							settings: {
+								slidesToShow: 2,
+								slidesToScroll: 2
+							}
+						}
+					]
+				});
+				$('.link-slider').slick({
+					dots: true,
+					infinite: false,
+					slidesToShow: 4,
+					slidesToScroll: 4,
+					autoplay: true,
+					autoplaySpeed: 3000,
+					responsive: [
+						{
+							breakpoint: 576,
+							settings: {
+								slidesToShow: 3,
+								slidesToScroll: 3,
+								infinite: true,
+								dots: true
+							}
+						},
+						{
+							breakpoint: 485,
+							settings: {
+								slidesToShow: 2,
+								slidesToScroll: 2
+							}
+						}
+					]
+				});
+			</script>
+		</body>
+</html>

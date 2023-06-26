@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="95" height="95" viewBox="0 0 95 95">
+  <g id="sign-maintain" transform="translate(-0.284 -0.284)">
+    <g id="Group_135" data-name="Group 135">
+      <rect id="Rectangle_119" data-name="Rectangle 119" width="95" height="95" transform="translate(0.284 0.284)" fill="none"/>
+    </g>
+    <g id="Group_137" data-name="Group 137" transform="translate(8.729 8.729)">
+      <g id="Group_136" data-name="Group 136">
+        <path id="Path_168" data-name="Path 168" d="M40.928,2A38.928,38.928,0,1,0,79.857,40.928,38.943,38.943,0,0,0,40.928,2Zm0,70.071A31.143,31.143,0,1,1,72.071,40.928,31.184,31.184,0,0,1,40.928,72.071Z" transform="translate(-2 -2)" fill="#ed831b" fill-rule="evenodd"/>
+        <path id="Path_169" data-name="Path 169" d="M29.991,22.714A11.93,11.93,0,0,0,13.058,8.2l8.1,8.1L16.3,21.162l-8.1-8.1A11.93,11.93,0,0,0,22.714,29.991l11.76,11.76a1.707,1.707,0,0,0,2.448,0l4.828-4.828a1.707,1.707,0,0,0,0-2.448Z" transform="translate(13.985 13.985)" fill="#ed831b" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
