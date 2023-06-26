@@ -10909,6 +10909,546 @@ input:focus, select:focus {
     color: #ED831B !important;
     transform: scale(1.01); }
 
+.btn-default-primary-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #ED831B !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-primary-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-primary-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-primary-light-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #ffe8d2 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-primary-light-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-primary-light-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-primary-dark-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #1379BB !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-primary-dark-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-primary-dark-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-secondary-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #F9BF00 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-secondary-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-secondary-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-danger-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #D92F2F !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-danger-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-danger-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-danger-dark-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #E64343 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-danger-dark-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-danger-dark-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-alert-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #F26C30 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-alert-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-alert-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-alert-light-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #FF9130 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-alert-light-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-alert-light-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-alert-xlight-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #FFA42D !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-alert-xlight-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-alert-xlight-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-black {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #000 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-black:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-black:hover {
+    transform: scale(1.01); }
+
+.btn-default-gray900 {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #292929 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-gray900:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-gray900:hover {
+    transform: scale(1.01); }
+
+.btn-default-gray800 {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #525252 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-gray800:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-gray800:hover {
+    transform: scale(1.01); }
+
+.btn-default-gray700 {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #7a7a7a !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-gray700:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-gray700:hover {
+    transform: scale(1.01); }
+
+.btn-default-gray600 {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #a3a3a3 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-gray600:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-gray600:hover {
+    transform: scale(1.01); }
+
+.btn-default-gray500 {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #ccc !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-gray500:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-gray500:hover {
+    transform: scale(1.01); }
+
+.btn-default-gray400 {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #d6d6d6 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-gray400:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-gray400:hover {
+    transform: scale(1.01); }
+
+.btn-default-gray300 {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #e0e0e0 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-gray300:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-gray300:hover {
+    transform: scale(1.01); }
+
+.btn-default-gray200 {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #ebebeb !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-gray200:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-gray200:hover {
+    transform: scale(1.01); }
+
+.btn-default-gray100 {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #f5f5f5 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-gray100:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-gray100:hover {
+    transform: scale(1.01); }
+
+.btn-default-white {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #fff !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-white:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-white:hover {
+    transform: scale(1.01); }
+
+.btn-default-base-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #8d8d8d !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-base-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-base-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-base-light-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #9FB1C2 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-base-light-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-base-light-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-tertiary-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #3E659F !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-tertiary-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-tertiary-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-assist-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #51BDC5 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-assist-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-assist-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-assist-dark-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #61A7BE !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-assist-dark-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-assist-dark-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-bright-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #7DBF71 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-bright-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-bright-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-pale-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #F6F6F6 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-pale-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-pale-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-pale-light-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #f8f8f7 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-pale-light-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-pale-light-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-special-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #4976E1 !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-special-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-special-color:hover {
+    transform: scale(1.01); }
+
+.btn-default-stable-color {
+  border-radius: 0.5rem !important;
+  font-size: 0.9rem;
+  background: #409A4C !important;
+  color: #fff !important;
+  overflow: hidden;
+  vertical-align: middle;
+  transform: scale(1);
+  transition: all 0.2s ease;
+  transition-property: all !important;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .btn-default-stable-color:before {
+    filter: brightness(80%) contrast(180%); }
+  .btn-default-stable-color:hover {
+    transform: scale(1.01); }
+
 .btn-dropdown {
   border-radius: 80px;
   background: #fff;
@@ -11005,21 +11545,6 @@ input:focus, select:focus {
     @media (max-width: 485px) {
       .icon-toggle-menu-item img {
         display: none; } }
-
-.default-primary-btn {
-  border-radius: 0.5rem !important;
-  font-size: 0.9rem;
-  background: #ED831B !important;
-  color: #fff !important;
-  overflow: hidden;
-  vertical-align: middle;
-  transform: scale(1);
-  transition: all 0.2s ease;
-  transition-property: all !important; }
-  .default-primary-btn:before {
-    filter: brightness(80%) contrast(180%); }
-  .default-primary-btn:hover {
-    transform: scale(1.01); }
 
 .circle-btn {
   width: 30px;
@@ -13923,6 +14448,7 @@ section[data-con="links"] {
     padding: 2px 0 4px 0; }
   .otp-btn {
     display: flex !important;
+    justify-content: center;
     height: 48px;
     font-size: 1.125rem !important; }
   .otp-form {
