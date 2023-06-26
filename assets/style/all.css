@@ -14637,7 +14637,8 @@ section[data-con="links"] {
   @media (max-width: 991px) {
     .side-menu {
       width: 100%;
-      display: flex; } }
+      display: flex;
+      border-right: 0; } }
   .side-menu-nav {
     display: flex;
     flex-direction: column; }
