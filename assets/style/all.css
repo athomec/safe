@@ -10142,6 +10142,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10167,6 +10168,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10192,6 +10194,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10217,6 +10220,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10242,6 +10246,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10267,6 +10272,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10292,6 +10298,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10317,6 +10324,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10342,6 +10350,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10367,6 +10376,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10392,6 +10402,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10417,6 +10428,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10442,6 +10454,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10467,6 +10480,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10492,6 +10506,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10517,6 +10532,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10542,6 +10558,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10567,6 +10584,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10592,6 +10610,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10617,6 +10636,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10642,6 +10662,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10667,6 +10688,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10692,6 +10714,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10717,6 +10740,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10742,6 +10766,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10767,6 +10792,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10792,6 +10818,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10817,6 +10844,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10842,6 +10870,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10867,6 +10896,7 @@ input:focus, select:focus {
   transform: scale(1);
   transition: all 0.2s ease;
   transition-property: all !important;
+  display: inline-flex !important;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -12500,7 +12530,7 @@ input:focus, select:focus {
       flex-direction: column; } }
   .page-footer-btn {
     height: 28px;
-    position: absolute;
+    position: absolute !important;
     right: 0;
     bottom: 0;
     padding: 0 1rem; }
@@ -13485,9 +13515,9 @@ footer {
           height: 25px; } }
 
 .section-combo {
-  border-top: 20px solid #ED831B;
   background: #fff;
-  border: 1px solid #e0e0e0; }
+  border: 1px solid #e0e0e0;
+  border-top: 20px solid #ED831B; }
 
 .form-control,
 .form-select {
