@@ -1,0 +1,15 @@
+<svg id="ic-area" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_243" data-name="Group 243">
+    <path id="Path_311" data-name="Path 311" d="M0,0H20V20H0Z" fill="none"/>
+  </g>
+  <g id="Group_245" data-name="Group 245" transform="translate(0 0.021)">
+    <g id="Group_244" data-name="Group 244">
+      <path id="Path_312" data-name="Path 312" d="M13.02,19.991v2.1a10.321,10.321,0,0,0,5.519-2.293L17.066,18.31A8.238,8.238,0,0,1,13.02,19.991Z" transform="translate(-2.134 -2.128)" fill="#333"/>
+      <path id="Path_313" data-name="Path 313" d="M4.1,12.029a8.136,8.136,0,0,1,7.21-7.953V2.05A10.177,10.177,0,0,0,2.03,12.029a10.177,10.177,0,0,0,9.285,9.979V19.983A8.136,8.136,0,0,1,4.1,12.029Z" transform="translate(-2.03 -2.05)" fill="#333"/>
+      <path id="Path_314" data-name="Path 314" d="M20.011,11.2h2.1A10.321,10.321,0,0,0,19.813,5.68L18.33,7.163A8.162,8.162,0,0,1,20.011,11.2Z" transform="translate(-2.106 -2.085)" fill="#333"/>
+      <path id="Path_315" data-name="Path 315" d="M18.539,4.343A10.355,10.355,0,0,0,13.02,2.05v2.1a8.238,8.238,0,0,1,4.046,1.681Z" transform="translate(-2.134 -2.05)" fill="#333"/>
+      <path id="Path_316" data-name="Path 316" d="M18.33,17.046l1.483,1.473A10.321,10.321,0,0,0,22.106,13h-2.1A8.238,8.238,0,0,1,18.33,17.046Z" transform="translate(-2.106 -2.155)" fill="#333"/>
+      <path id="Path_317" data-name="Path 317" d="M16.3,10.972A3.994,3.994,0,0,0,12.15,7,3.994,3.994,0,0,0,8,10.972q0,2.412,4.15,5.716Q16.3,13.389,16.3,10.972Zm-4.15.872a1.039,1.039,0,1,1,1.11-1.037A1.076,1.076,0,0,1,12.15,11.844Z" transform="translate(-2.15 -1.865)" fill="#333"/>
+    </g>
+  </g>
+</svg>

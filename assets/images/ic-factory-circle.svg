@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="ic-factory-circle" transform="translate(-79.485 -152)">
+    <g id="ic-base">
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="13" cy="13" r="13" transform="translate(79.485 152)" fill="#fbc998"/>
+    </g>
+    <g id="factory_black_24dp" transform="translate(83.125 155.125)">
+      <g id="Group_269" data-name="Group 269">
+        <rect id="Rectangle_198" data-name="Rectangle 198" width="18" height="18" transform="translate(-0.125 -0.125)" fill="none"/>
+      </g>
+      <g id="Group_270" data-name="Group 270" transform="translate(1.985 1.985)">
+        <path id="Path_330" data-name="Path 330" d="M15.6,15.6H2V7.44L6.76,5.4V6.76l3.4-1.36V7.44H12.2L12.88,2h2.04l.68,5.44ZM8.8,7.406,5.4,8.766V7.44l-2.04.9v5.9h10.88V8.8H8.8ZM8.12,12.88H9.48V10.16H8.12Zm-2.72,0H6.76V10.16H5.4Zm6.8-2.72H10.84v2.72H12.2Z" transform="translate(-2 -2)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

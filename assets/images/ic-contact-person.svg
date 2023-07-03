@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="ic-contact-person" transform="translate(-668.5 -610)">
+    <g id="people_alt_black_24dp" transform="translate(678.016 619.516)">
+      <g id="Group_103" data-name="Group 103">
+        <rect id="Rectangle_89" data-name="Rectangle 89" width="26" height="26" transform="translate(0.484 0.484)" fill="none"/>
+      </g>
+      <g id="Group_105" data-name="Group 105" transform="translate(1.107 4.429)">
+        <g id="Group_104" data-name="Group 104">
+          <path id="Path_118" data-name="Path 118" d="M16.67,13.13a5.149,5.149,0,0,1,2.58,4.285v3.321h4.429V17.415C23.678,15,19.726,13.573,16.67,13.13Z" transform="translate(0.679 -3.022)" fill="#333"/>
+          <path id="Path_119" data-name="Path 119" d="M15.143,12.857a4.429,4.429,0,1,0,0-8.857,4.626,4.626,0,0,0-1.473.266,6.621,6.621,0,0,1,0,8.326A4.626,4.626,0,0,0,15.143,12.857Z" transform="translate(0.358 -4)" fill="#333"/>
+          <path id="Path_120" data-name="Path 120" d="M9.429,12.857A4.429,4.429,0,1,0,5,8.429,4.427,4.427,0,0,0,9.429,12.857Zm0-6.643A2.214,2.214,0,1,1,7.214,8.429,2.221,2.221,0,0,1,9.429,6.214Z" transform="translate(-0.571 -4)" fill="#333"/>
+          <path id="Path_121" data-name="Path 121" d="M9.857,13C6.9,13,1,14.484,1,17.429V20.75H18.714V17.429C18.714,14.484,12.813,13,9.857,13ZM16.5,18.536H3.214v-1.1c.221-.8,3.654-2.225,6.643-2.225s6.421,1.428,6.643,2.214Z" transform="translate(-1 -3.036)" fill="#333"/>
+        </g>
+      </g>
+    </g>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(668.5 610)" fill="none" stroke="#333" stroke-width="1">
+      <circle cx="23" cy="23" r="23" stroke="none"/>
+      <circle cx="23" cy="23" r="22.5" fill="none"/>
+    </g>
+  </g>
+</svg>

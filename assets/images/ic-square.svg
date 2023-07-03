@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ic-square" transform="translate(-7143 201)">
+    <path id="subtract" d="M0,2A2,2,0,0,1,2,0h8a2,2,0,0,1,2,2V4h2a2,2,0,0,1,2,2v8a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2V12H2a2,2,0,0,1-2-2ZM2,1A1,1,0,0,0,1,2v8a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V2a1,1,0,0,0-1-1Z" transform="translate(7147 -197)" fill="#333"/>
+    <rect id="Rectangle_263" data-name="Rectangle 263" width="24" height="24" transform="translate(7143 -201)" fill="none"/>
+  </g>
+</svg>

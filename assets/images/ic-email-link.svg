@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="ic-email-link" transform="translate(0.227 -0.023)">
+    <rect id="Rectangle_84" data-name="Rectangle 84" width="32" height="32" transform="translate(-0.227 0.023)" fill="none"/>
+    <path id="Path_109" data-name="Path 109" d="M26.147,4H4.683a2.6,2.6,0,0,0-2.67,2.514L2,21.6a2.61,2.61,0,0,0,2.683,2.514H15.415V21.6H4.683V9.028l10.732,6.285L26.147,9.028v6.285H28.83v-8.8A2.61,2.61,0,0,0,26.147,4ZM15.415,12.8,4.683,6.514H26.147Zm7.164,13.826-4.749-4.45L19.721,20.4l2.844,2.665,5.688-5.329,1.918,1.772Z" transform="translate(0.302 2.403)" fill="#ed831b"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="ic-back" transform="translate(-27 -20)">
+    <circle id="Ellipse_31" data-name="Ellipse 31" cx="15" cy="15" r="15" transform="translate(27 20)" fill="#ed831b"/>
+    <g id="reply_black_24dp_1_" data-name="reply_black_24dp (1)" transform="translate(30 22)">
+      <path id="Path_337" data-name="Path 337" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_338" data-name="Path 338" d="M10,9V5L3,12l7,7V14.9c5,0,8.5,1.6,11,5.1C20,15,17,10,10,9Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

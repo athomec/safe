@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_145" data-name="Rectangle 145" width="15.593" height="12.128" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ic-photo" transform="translate(-66 -368.5)">
+    <circle id="Ellipse_15" data-name="Ellipse 15" cx="13" cy="13" r="13" transform="translate(66 368.5)" fill="#be8de3"/>
+    <g id="Group_179" data-name="Group 179" transform="translate(71.318 375.436)">
+      <g id="Group_178" data-name="Group 178" clip-path="url(#clip-path)">
+        <path id="Path_224" data-name="Path 224" d="M12.994,10.4v.433a1.3,1.3,0,0,1-1.3,1.3H1.3a1.3,1.3,0,0,1-1.3-1.3V3.9A1.3,1.3,0,0,1,1.3,2.6h.433V8.229A2.168,2.168,0,0,0,3.9,10.4Zm2.6-2.166V1.3a1.3,1.3,0,0,0-1.3-1.3H3.9A1.3,1.3,0,0,0,2.6,1.3v6.93a1.3,1.3,0,0,0,1.3,1.3h10.4a1.3,1.3,0,0,0,1.3-1.3M6.93,2.6a1.3,1.3,0,1,1-1.3-1.3,1.3,1.3,0,0,1,1.3,1.3m-2.6,3.9,1.5-1.5a.325.325,0,0,1,.459,0l1.07,1.07L11.032,2.4a.325.325,0,0,1,.46,0l2.369,2.37V7.8H4.332Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="ic-building" transform="translate(-516.5 -938)">
+    <g id="maps_home_work_black_24dp" transform="translate(527.5 949)">
+      <g id="Group_100" data-name="Group 100">
+        <path id="Path_112" data-name="Path 112" d="M0,0H24V24H0Z" fill="none"/>
+      </g>
+      <g id="Group_102" data-name="Group 102">
+        <g id="Group_101" data-name="Group 101">
+          <rect id="Rectangle_85" data-name="Rectangle 85" width="2" height="2" transform="translate(17 7)" fill="#333"/>
+          <rect id="Rectangle_86" data-name="Rectangle 86" width="2" height="2" transform="translate(17 11)" fill="#333"/>
+          <rect id="Rectangle_87" data-name="Rectangle 87" width="2" height="2" transform="translate(17 15)" fill="#333"/>
+          <path id="Path_113" data-name="Path 113" d="M1,11V21H7V16H9v5h6V11L8,6Zm12,8H11V14H5v5H3V12L8,8.5,13,12Z" fill="#333"/>
+          <path id="Path_114" data-name="Path 114" d="M10,3V4.97L12,6.4V5h9V19H17v2h6V3Z" fill="#333"/>
+        </g>
+      </g>
+    </g>
+    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(516.5 938)" fill="none" stroke="#333" stroke-width="1">
+      <circle cx="23" cy="23" r="23" stroke="none"/>
+      <circle cx="23" cy="23" r="22.5" fill="none"/>
+    </g>
+  </g>
+</svg>

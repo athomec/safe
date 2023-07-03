@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="ic-map-line" transform="translate(-668.5 -938)">
+    <g id="map_black_24dp_1_" data-name="map_black_24dp (1)" transform="translate(679.5 949)">
+      <path id="Path_129" data-name="Path 129" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_130" data-name="Path 130" d="M20.5,3l-.16.03L15,5.1,9,3,3.36,4.9A.5.5,0,0,0,3,5.38V20.5a.5.5,0,0,0,.5.5l.16-.03L9,18.9,15,21l5.64-1.9a.5.5,0,0,0,.36-.48V3.5A.5.5,0,0,0,20.5,3ZM10,5.47l4,1.4V18.53l-4-1.4ZM5,6.46,8,5.45v11.7L5,18.31ZM19,17.54l-3,1.01V6.86L19,5.7Z" fill="#333"/>
+    </g>
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(668.5 938)" fill="none" stroke="#333" stroke-width="1">
+      <circle cx="23" cy="23" r="23" stroke="none"/>
+      <circle cx="23" cy="23" r="22.5" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -187,17 +187,23 @@
 </nav>
 <!--麵包屑結束-->
 <div class="section container">
-    <section class="section-combo mb-5">
+    <section class="section-combo mb-5" data-con="manager">
         <div class="section-combo-item">
-            <h3 class="section-combo-title"><img src="./assets/images/ic-company.svg" class="me-2"> 台灣積體電路股份有限公司<span>15B廠</span></h3>
+            <h3 class="section-combo-title"><img src="./assets/images/ic-company.svg" class="me-2"> 國科會中科管理局<span>環安組</span></h3>
             <p class="d-flex mb-3"><img src="./assets/images/ic-pin-dark.svg" class="me-1">台中市西屯區中科路1號</p>
             <div class="section-combo-info">
-                <h4 class="section-combo-info-title">台中<br>基地</h4>
+                <h4 class="section-combo-info-title">系統<br>管理員</h4>
                 <ul class="row section-combo-info-item">
-                    <div class="col-6"><li>統一編號<span>80435345</span></li></div>
-                    <div class="col-6"><li>系統編號<span>U121</span></li></div>
-                    <div class="col-6"><li>工廠登記<span>93F13145</span></li></div>
-                    <div class="col-6"><li>環保管編<span>A1341412</span></li></div>
+                    <div class="col-12">
+                        <li>位址檢核<span>相符 (IP: 114.10.20.30)</span></li>
+                    </div>
+                    <div class="col-12">
+                    <li>
+                        時間檢核<span class="primary-color d-inline-flex align-items-center">
+                            不符 (2023/11/12 16:40) <img src="./assets/images/ic-notice.svg" alt="不符" class="ms-1">
+                        </span>
+                    </li>
+                </div>
                 </ul>
             </div>
         </div>
@@ -214,13 +220,13 @@
                         <img src="./assets/images/ic-mobile-link.svg">
                     </li>
                     <li class="col-3">
-                        <img src="./assets/images/ic-email-link.svg">
+                        <img src="./assets/images/ic-email-link.svg" class="disable">
                     </li>
                     <li class="col-3">
-                        <img src="./assets/images/ic-line-link.svg" class="disable">
+                        <img src="./assets/images/ic-line-link.svg">
                     </li>
                     <li class="col-3">
-                        <img src="./assets/images/ic-web-link.svg" class="disable">
+                        <img src="./assets/images/ic-web-link.svg">
                     </li>
                 </ul>
                 </a>
@@ -240,31 +246,28 @@
     </section>
     <div class="row align-items-stretch">
         <div class="col-lg-6 d-flex flex-column mb-5">
-            <h3 class="sub-subtitle mb-3">申報狀態<span>各項資料申報狀態資訊</span></h3>
-            <div class="section-container h-100 px-4">
-                <ul class="info-list row">
+            <h3 class="sub-subtitle mb-3">廠商資料<span>GIS空間物件狀態資訊</span></h3>
+            <div class="section-container h-100 px-4 d-flex align-items-center">
+                <ul class="info-list row w-100">
+                    <li class="col-4">
+                        <a href="#" class="info-list-item">
+                            <h4 class="info-list-title primary-color">業者</h4>
+                            <img src="./assets/images/ic-contact-person.svg" class="info-list-img">
+                            <div>311 <span>筆</span></div>
+                        </a>
+                    </li>
                     <li class="col-4">
                         <a href="#" class="info-list-item">
                         <h4 class="info-list-title primary-color">化學品</h4>
                         <img src="./assets/images/ic-lab.svg" class="info-list-img">
-                        <div>3,115 <span>筆</span></div>
-                        <p class="gray600">2023/12/15</p>
+                        <div>18,155 <span>筆</span></div>
                         </a>
                     </li>
                     <li class="col-4">
                         <a href="#" class="info-list-item">
-                        <h4 class="info-list-title primary-color">聯絡人</h4>
-                        <img src="./assets/images/ic-contact-person.svg" class="info-list-img">
-                        <div>15 <span>筆</span></div>
-                        <p class="gray600">2023/12/15</p>
-                        </a>
-                    </li>
-                    <li class="col-4">
-                        <a href="#" class="info-list-item">
-                        <h4 class="info-list-title primary-color">應變資材</h4>
-                        <img src="./assets/images/ic-material.svg" class="info-list-img">
-                        <div>- <span>筆</span></div>
-                        <p class="gray600">2023/12/15</p>
+                        <h4 class="info-list-title primary-color">室內圖</h4>
+                        <img src="./assets/images/ic-map-line.svg" class="info-list-img">
+                        <div>133 <span>筆</span></div>
                         </a>
                     </li>
                 </ul>
@@ -305,32 +308,39 @@
                 </ul>
             </div>
         </div>
-        <div class="col-lg-6 d-flex flex-column mb-5 mb-lg-0">
-            <h3 class="sub-subtitle mb-3">空間資料<span>GIS空間物件狀態資訊</span></h3>
-            <div class="section-container h-100 px-4">
-                <ul class="info-list row">
-                    <li class="col-4">
-                        <a href="#" class="info-list-item">
-                            <h4 class="info-list-title primary-color">建物</h4>
-                            <img src="./assets/images/ic-building.svg" class="info-list-img">
-                            <div>3 <span>件</span></div>
-                            <p class="gray600">2023/12/15</p>
+        <div class="col-lg-6 d-flex flex-column">
+            <div class="d-flex justify-content-between align-items-end mb-3">
+                <h3 class="sub-subtitle">資安記錄<span>系統資訊安全紀錄</span></h3>
+                <button class="btn btn-border-primary-color hvr-sweep-to-bottom pt-0"
+                    onclick="location.href='news.html'">more</button>
+            </div>
+            <div class="section-container h-100 px-4 pt-2">
+                <div class="d-flex justify-content-end border-bottom border-1 pb-2 mb-2 font-xs-md font-sm">
+                    上次登入<span class="primary-color ms-1">2023/4/15</span>
+                </div>
+                <ul class="tag-list-arrow">
+                    <li class="tag-list-arrow-item">
+                        <a href="mis-message-list.html" class="tag-list-arrow-link">
+                            <div class="d-inline-flex">2023/12/15 12:00 <span class="primary-color">IP封鎖</span></div>
+                            <p>上傳聯絡人資料</p>
                         </a>
                     </li>
-                    <li class="col-4">
-                        <a href="#" class="info-list-item">
-                            <h4 class="info-list-title primary-color">平面圖</h4>
-                            <img src="./assets/images/ic-map-line.svg" class="info-list-img">
-                            <div>31 <span>筆</span></div>
-                            <p class="gray600">2023/12/15</p>
+                    <li class="tag-list-arrow-item">
+                        <a href="mis-message-list.html" class="tag-list-arrow-link">
+                            <div class="d-inline-flex">2023/12/15 12:00 <span class="primary-color">IP封鎖</span></div>
+                            <p>上傳聯絡人資料</p>
                         </a>
                     </li>
-                    <li class="col-4">
-                        <a href="#" class="info-list-item">
-                            <h4 class="info-list-title primary-color">儲存位置</h4>
-                            <img src="./assets/images/ic-save-position.svg" class="info-list-img">
-                            <div>115 <span>區</span></div>
-                            <p class="gray600">2023/12/15</p>
+                    <li class="tag-list-arrow-item">
+                        <a href="mis-message-list.html" class="tag-list-arrow-link">
+                            <div class="d-inline-flex">2023/12/15 12:00 <span class="primary-color">IP封鎖</span></div>
+                            <p>上傳聯絡人資料</p>
+                        </a>
+                    </li>
+                    <li class="tag-list-arrow-item">
+                        <a href="mis-message-list.html" class="tag-list-arrow-link">
+                            <div class="d-inline-flex">2023/12/15 12:00 <span class="primary-color">IP封鎖</span></div>
+                            <p>上傳聯絡人資料</p>
                         </a>
                     </li>
                 </ul>
