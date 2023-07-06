@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ic-factory-dark" transform="translate(-0.35)">
+    <g id="Group_269" data-name="Group 269">
+      <rect id="Rectangle_198" data-name="Rectangle 198" width="24" height="24" transform="translate(0.35)" fill="none"/>
+    </g>
+    <g id="Group_270" data-name="Group 270" transform="translate(1.985 1.985)">
+      <path id="Path_330" data-name="Path 330" d="M21.85,21.85H2V9.94L8.948,6.963V8.948L13.91,6.963V9.94h2.978L17.88,2h2.978l.993,7.94ZM11.925,9.89,6.963,11.876V9.94L3.985,11.25v8.615h15.88v-7.94h-7.94Zm-.993,7.99h1.985V13.91H10.933Zm-3.97,0H8.948V13.91H6.963Zm9.925-3.97H14.9v3.97h1.985Z" transform="translate(-2 -2)" fill="#333"/>
+    </g>
+  </g>
+</svg>

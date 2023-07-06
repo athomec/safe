@@ -45,7 +45,13 @@ $(function () {//JS開頭
 			}
 		}.bind(this), 1000); // 設置計時器間隔為1秒(1000毫秒)
 	});
-
+//上方選單開啟左右視窗
+	$(".js-map-function-menu").find("a").click(function() {
+		$('.js-side-menu').removeClass("close");
+		var button = document.querySelector(".js-nav-toggler");
+		button.click();
+		open_left();
+	})
 	//----------------左側選單控制-----------------
 	$(".js-side-menu-toggler").click(function () {
 		$('.js-side-menu').toggleClass("close");
@@ -111,6 +117,19 @@ $(function () {//JS開頭
 		$(".js-iframe").removeClass("iframe-map-height");
 		$("body").removeClass("scrolly-none");
 	})
+//modal無內容控制
+	$('.js-modal-show-box').each(function () {
+		var hasContent = $(this).children().length > 0 || $(this).text().trim() !== '';
+		if (!hasContent) {
+			$(this).addClass('none');
+		}
+	});
+	$('.js-modal-btn-list').each(function () {
+		var hasContent = $(this).children().length > 0 || $(this).text().trim() !== '';
+		if (!hasContent) {
+			$(this).addClass('none');
+		}
+	});
 
 	RESIZE();
 

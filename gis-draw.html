@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <title>職業安全衛生資訊管理系統</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="職業安全衛生資訊管理系統,職業安全衛生資訊,職業安全衛生,安全衛生資訊">
+    <meta name="description" content="職業安全衛生資訊管理系統" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:site_name" content="image.png" />
+    <meta property="og:image" content="./assets/images/fb-img.png" />
+    <!--分享設定-->
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <!--iconfont設定-->
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <!--css設定-->
+</head>
+		<body class="scrollbar scrollx-none">
+			<div class="wrapper">
+				<!--內容開始-->
+				<div class="side-menu-header">
+    <img src="./assets/images/ic-draw.svg" class="me-1"> 物件繪製
+</div>
+<div class="side-menu-body px-4 pt-4 pb-3">
+    <h3 class="side-menu-body-title"><img src="./assets/images/ic-area.svg">場域資訊</h3>
+    <ul class="row icon-img-list mb-4">
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-base.svg">基地</a>
+        </li>
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-polygon.svg">多邊建築</a>
+        </li>
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-circle.svg">圓形建築</a>
+        </li>
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-positioning.svg">定位點</a>
+        </li>
+    </ul>
+    <h3 class="side-menu-body-title"><img src="./assets/images/ic-environment.svg">環境資訊</h3>
+    <ul class="row icon-img-list mb-4">
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-360.svg">360 模型</a>
+        </li>
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-panorama.svg">空中環景</a>
+        </li>
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-photo.svg">現場照片</a>
+        </li>
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-monitor.svg">監視器</a>
+        </li>
+    </ul>
+    <h3 class="side-menu-body-title"><img src="./assets/images/ic-prevention.svg">防災資訊</h3>
+    <ul class="row icon-img-list mb-4">
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-exit.svg">出入口</a>
+        </li>
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-path.svg">路線</a>
+        </li>
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-water.svg">水源</a>
+        </li>
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-tool.svg">重機具</a>
+        </li>
+        <li class="col-6 icon-img-list-item">
+            <a href="#" class="icon-img-list-link"><img src="./assets/images/ic-fire-hydrant.svg">消防栓</a>
+        </li>
+    </ul>
+</div>
+				<!--內容結束-->
+			</div>
+			<!-- SCRIPTS -->
+			<script src="assets/js/jquery-3.7.0.min.js"></script>
+<script src='assets/js/jquery-ui.min.js'></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="assets/js/moment-with-locales.min.js"></script>
+<script src="assets/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    $(function () {
+        $('#export-from').datetimepicker({
+            locale: 'zh-tw',
+            defaultDate: new Date(),
+            format: 'L',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        });
+        $('#export-to').datetimepicker({
+            locale: 'zh-tw',
+            defaultDate: new Date(),
+            format: 'L',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        });
+         $(document).ready(function () {
+            var myModal = $('#modal-alert');
+            setTimeout(function () {
+                // 使用淡入效果顯示 modal
+                myModal.modal('show').css('opacity', 0).animate({ opacity: 1 }, 300);
+            }, 1000); // 顯示 modal，延遲 1 秒
+            setTimeout(function () {
+                // 使用淡出效果關閉 modal
+                myModal.animate({ opacity: 0 }, 300, function () {
+                    myModal.modal('hide');
+                });
+            }, 4000); // 關閉 modal，延遲 4 秒
+        });
+    });
+</script>
+		</body>
+</html>

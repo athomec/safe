@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <title>職業安全衛生資訊管理系統</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="職業安全衛生資訊管理系統,職業安全衛生資訊,職業安全衛生,安全衛生資訊">
+    <meta name="description" content="職業安全衛生資訊管理系統" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:site_name" content="image.png" />
+    <meta property="og:image" content="./assets/images/fb-img.png" />
+    <!--分享設定-->
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <!--iconfont設定-->
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <!--css設定-->
+</head>
+		<body class="scrollbar-primary bg-gray100">
+			
+			<div class="wrapper">
+				<!--彈出視窗開始-->
+<!--安全資料表-->
+<div class="modal fade" id="safe-info" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content px-3">
+            <div class="modal-header">
+                <h5 class="modal-title"><img src="./assets/images/ic-safe-info.svg" class="me-2">化學物質安全資料表</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="d-flex justify-content-between mb-3">
+                    <img src="./assets/images/sign-lab.svg" class="me-2">
+                    <div class="modal-subtitle">
+                        <p>108-10-1<span>甲基異丁酮</span></p>
+                        <span>Methyl isobutyl ketone</span>
+                    </div>
+                    <button class="btn tiny-btn flex-shrink-0 ms-auto"><img src="./assets/images/ic-edit.svg"
+                            alt="編輯"></button>
+                </div>
+                <div class="modal-list bg-primary-xlight-color mb-3">
+                    <h6 class="modal-list-title">業者自備</h6>
+                    <ul class="w-100 scrollbar-primary py-2" style="height: 120px;">
+                        <li class="modal-list-item">
+                            <a href="#" class="modal-list-link">
+                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
+                                <img src="./assets/images/ic-download.svg" class="ms-auto">
+                            </a>
+                        </li>
+                        <li class="modal-list-item">
+                            <a href="#" class="modal-list-link">
+                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
+                                <img src="./assets/images/ic-download.svg" class="ms-auto">
+                            </a>
+                        </li>
+                        <li class="modal-list-item">
+                            <a href="#" class="modal-list-link">
+                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
+                                <img src="./assets/images/ic-download.svg" class="ms-auto">
+                            </a>
+                        </li>
+                        <li class="modal-list-item">
+                            <a href="#" class="modal-list-link">
+                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
+                                <img src="./assets/images/ic-download.svg" class="ms-auto">
+                            </a>
+                        </li>
+                        <li class="modal-list-item">
+                            <a href="#" class="modal-list-link">
+                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
+                                <img src="./assets/images/ic-download.svg" class="ms-auto">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-list bg-gray100">
+                    <h6 class="modal-list-title">業者自備</h6>
+                    <ul class="w-100 scrollbar-primary py-2" style="height: 120px;">
+                        <li class="modal-list-item">
+                            <a href="#" class="modal-list-link">
+                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
+                                <img src="./assets/images/ic-download.svg" class="ms-auto">
+                            </a>
+                        </li>
+                        <li class="modal-list-item">
+                            <a href="#" class="modal-list-link">
+                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
+                                <img src="./assets/images/ic-download.svg" class="ms-auto">
+                            </a>
+                        </li>
+                        <li class="modal-list-item">
+                            <a href="#" class="modal-list-link">
+                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
+                                <img src="./assets/images/ic-download.svg" class="ms-auto">
+                            </a>
+                        </li>
+                        <li class="modal-list-item">
+                            <a href="#" class="modal-list-link">
+                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
+                                <img src="./assets/images/ic-download.svg" class="ms-auto">
+                            </a>
+                        </li>
+                        <li class="modal-list-item">
+                            <a href="#" class="modal-list-link">
+                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
+                                <img src="./assets/images/ic-download.svg" class="ms-auto">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--環景影像-->
+<div class="modal fade" id="panorama" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content px-3">
+            <div class="modal-header">
+                <h5 class="modal-title"><img src="./assets/images/ic-3d-img.svg" class="me-2">環景影像</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body px-0">
+                <div class="rounded overflow-hidden mb-2">
+                    <img src="./assets/images/demo-p1.jpg">
+                </div>
+                <div class="d-flex align-items-center">
+                    <h6 class="modal-subtitle mb-0 me-3" data-con="less">
+                        <img src="./assets/images/ic-pin-dark.svg" class="me-1">
+                        <p class="d-flex align-items-center">辦公大樓<span>3F</span></p>
+                    </h6>
+                    <p>環景點A</p>
+                    <button class="btn tiny-btn flex-shrink-0 ms-auto" data-bs-target="#photo-setting"
+                        data-bs-toggle="modal"><img src="./assets/images/ic-edit.svg" alt="編輯"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--現場照片設定-->
+<div class="modal fade" id="photo-setting" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content px-3">
+            <div class="modal-header">
+                <h5 class="modal-title"><img src="./assets/images/ic-photo-setting.svg" class="me-2">現場照片設定</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body px-0">
+                <div class="d-flex align-items-center mb-3">
+                    <h6 class="modal-subtitle mb-0 me-3" data-con="less">
+                        <img src="./assets/images/ic-pin-dark.svg" class="me-1">
+                        <p class="d-flex align-items-center">台灣積體電路<span>15廠</span></p>
+                    </h6>
+                    <p>Fab大樓</p>
+                </div>
+                <div class="container">
+                    <div class="row align-items-stretch g-0 mb-3">
+                        <div class="col-lg-6 d-flex flex-column mb-3 mb-lg-0">
+                            <div class="d-flex bg-gray200 px-3 py-1 flex-shrink-0 border-fix position-relative">
+                                <img src="./assets/images/ic-photo-preview.svg" class="me-2">照片預覽
+                            </div>
+                            <div class="modal-show-box p-2 js-modal-show-box">
+                                <img src="./assets/images/demo-p1.jpg">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-flex flex-column">
+                            <div class="d-flex bg-gray200 px-3 py-1 flex-shrink-0">
+                                <img src="./assets/images/ic-photo-list.svg" class="me-2">照片清單
+                            </div>
+                            <div class="modal-show-box p-3 bg-gray100">
+                                <div class="d-flex mb-3">
+                                    <div class="input-group me-3">
+                                        <input type="text" class="form-control border-end-0 px-2" placeholder="篩選文字">
+                                        <button class="btn px-2 border-start-0" type="button">
+                                            <img src="./assets/images/ic-search.svg" alt="搜尋">
+                                        </button>
+                                    </div>
+                                    <button class="btn btn-border-primary-color hvr-sweep-to-right flex-shrink-0"
+                                        type="button">
+                                        <img src="./assets/images/ic-add.svg">
+                                        新增
+                                    </button>
+                                </div>
+                                <ul class="modal-btn-list border-end-0 scrollbar-primary js-modal-btn-list"
+                                    style="height: 270px;">
+                                    <li class="modal-btn-list-item">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
+                                                class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img
+                                                src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
+                                                class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img
+                                                src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
+                                                class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img
+                                                src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
+                                                class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img
+                                                src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
+                                                class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img
+                                                src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
+                                                class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img
+                                                src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
+                                                class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img
+                                                src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button class="btn btn-border-primary-color hvr-sweep-to-bottom ms-auto me-2"><img
+                                src="./assets/images/ic-cancel.svg" alt="取消">
+                            取消</button>
+                        <button class="btn btn-default-primary-color hvr-sweep-to-right"><img
+                                src="./assets/images/ic-save.svg" alt="儲存">
+                            儲存</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--工廠危害資訊卡-->
+<div class="modal fade" id="factory-hazard" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content px-3">
+            <div class="modal-header">
+                <h5 class="modal-title"><img src="./assets/images/ic-factory-hazard.svg" class="me-2">工廠危害資訊卡</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body px-0">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 mb-3">
+                            <h6 class="modal-body-title modal-subtitle mb-md-3 me-md-3" data-con="less">
+                                <p class="d-flex align-items-center flex-wrap">台灣積體電路股份有限公司<span>15B廠</span></p>
+                            </h6>
+                            <button class="btn tiny-btn d-inline-flex align-items-center">
+                                <img src="./assets/images/ic-pin-dark.svg" class="me-1">
+                                <p class="me-4">台中市西屯區中科路1號</p>
+                                <img src="./assets/images/ic-more-primary.svg" class="me-1">
+                            </button>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="section-combo-info bg-gray100 align-items-stretch font-xsm">
+                                <h4
+                                    class="section-combo-info-title gray800 bd-gray300 border-end me-3 d-flex align-items-center">
+                                    台中廠區
+                                </h4>
+                                <ul class="row section-combo-info-item">
+                                    <div class="col-md-6">
+                                        <li class="font-light">統一編號：80435345</li>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <li class="font-light">系統編號：U121</li>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <li class="font-light">工廠登記：93F13145</li>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <li class="font-light">環保管編：A1341412</li>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="modal-combo-wrapper">
+                    <div class="modal-combo-box">
+                        <h6 class="modal-combo-box-header">
+                            <img src="./assets/images/ic-factory-dark.svg" class="me-1">工廠狀態
+                        </h6>
+                        <div class="modal-combo-box-body">
+                            <p>上次登入<span class="primary-color ms-3">2023/10/10</span></p>
+                            <p>變更密碼<span class="primary-color ms-3">2023/10/10</span></p>
+                            <hr>
+                            <ul class="info-list info-list-sm row mb-3 py-2">
+                                <li class="col-4">
+                                    <a href="#" class="info-list-item">
+                                        <h4 class="info-list-title gray800">建物</h4>
+                                        <img src="./assets/images/ic-building-primary.svg" class="info-list-img">
+                                        <div>3 <span>件</span></div>
+                                    </a>
+                                </li>
+                                <li class="col-4">
+                                    <a href="#" class="info-list-item">
+                                        <h4 class="info-list-title gray800">平面圖</h4>
+                                        <img src="./assets/images/ic-map-line-primary.svg" class="info-list-img">
+                                        <div>31 <span>筆</span></div>
+                                    </a>
+                                </li>
+                                <li class="col-4">
+                                    <a href="#" class="info-list-item">
+                                        <h4 class="info-list-title gray800">儲存位置</h4>
+                                        <img src="./assets/images/ic-save-position-primary.svg" class="info-list-img">
+                                        <div>115 <span>區</span></div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="gray600 font-xs">2023/10/10 更新</p>
+                        </div>
+                    </div>
+                    <div class="modal-combo-box">
+                        <h6 class="modal-combo-box-header">
+                            <img src="./assets/images/ic-science.svg" class="me-1">化學品
+                        </h6>
+                        <div class="modal-combo-box-body">
+                            <a href="#" class="btn-card-primary-color mb-2">
+                                <div class="btn-card-title">
+                                    毒化物
+                                </div>
+                                <div class="btn-card-body">
+                                    <
+                                <p class="ms-auto">10 kg</p>
+                                <span>3 項</span>
+                                <img src="./assets/images/ic-more-primary.svg">
+                                </div>
+                            </a>
+                            <a href="#" class="btn-card-primary-dark-color mb-2">
+                                <div class="btn-card-title">
+                                    危害物
+                                </div>
+                                <div class="btn-card-body">
+                                <p class="ms-auto">19,152 kg</p>
+                                <span>125 項</span>
+                                <img src="./assets/images/ic-more-danger.svg">
+                                </div>
+                            </a>
+                            <div class="container px-0 mb-2">
+                                <div class="row gx-2">
+                                    <div class="col-4 mb-2">
+                                        <button class="btn btn-border-gray800 hvr-sweep-to-bottom p-2 w-100">
+                                            <img src="./assets/images/ic-blow.svg" alt="易爆">
+                                            易爆
+                                        </button>
+                                    </div>
+                                    <div class="col-4 mb-2">
+                                        <button class="btn btn-border-gray800 hvr-sweep-to-bottom p-2 w-100">
+                                            <img src="./assets/images/ic-fast.svg" alt="急毒">
+                                            急毒
+                                        </button>
+                                    </div>
+                                    <div class="col-4 mb-2">
+                                        <button class="btn btn-border-gray800 hvr-sweep-to-bottom p-2 w-100">
+                                            <img src="./assets/images/ic-nowater.svg" alt="禁水">
+                                            禁水
+                                        </button>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-border-gray800 hvr-sweep-to-bottom py-2 w-100 flex-column">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./assets/images/ic-danger.svg">
+                                            <img src="./assets/images/ic-danger.svg">
+                                            <img src="./assets/images/ic-danger.svg">
+                                            <img src="./assets/images/ic-danger.svg">
+                                        </div>
+                                        <div class="d-flex justify-content-center" style="margin-top: -5px;">
+                                            <img src="./assets/images/ic-danger.svg">
+                                            <img src="./assets/images/ic-danger.svg">
+                                            <img src="./assets/images/ic-danger.svg">
+                                            <img src="./assets/images/ic-danger.svg">
+                                            <img src="./assets/images/ic-danger.svg">
+                                        </div>
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="d-flex justify-content-between align-items-center">
+                            <p class="gray600 font-xs">2023/10/10 更新</p>
+                            <button class="btn btn-border-primary-color hvr-sweep-to-bottom pt-0 pb-1">
+                                more
+                            </button>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="modal-combo-box">
+                        <h6 class="modal-combo-box-header">
+                            <img src="./assets/images/ic-contact-user.svg" class="me-1">聯絡人
+                        </h6>
+                        <div class="modal-combo-box-body pt-0">
+                            <ul class="modal-combo-box-list mb-3">
+                                <li>
+                                    <a href="#" class="modal-combo-box-list-link">
+                                        <p>李文生<span class="gray700">事務部經理</span></p>
+                                        <p>04-254565888</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="modal-combo-box-list-link">
+                                        <p>李文生<span class="gray700">事務部經理</span></p>
+                                        <p>04-254565888</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="modal-combo-box-list-link">
+                                        <p>李文生<span class="gray700">事務部經理</span></p>
+                                        <p>04-254565888</p>
+                                    </a>
+                                </li>
+                            </ul>
+                           <div class="d-flex justify-content-between align-items-center">
+                            <p class="gray600 font-xs">2023/10/10 更新</p>
+                            <button class="btn btn-border-primary-color hvr-sweep-to-bottom pt-0 pb-1">
+                                more
+                            </button>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="modal-combo-box">
+                        <h6 class="modal-combo-box-header">
+                            <img src="./assets/images/ic-material-box.svg" class="me-1">應變資材
+                        </h6>
+                        <div class="modal-combo-box-body">
+                            <p class="text-center mb-3">場內備存量／可外借量</p>
+                            <ul class="modal-combo-box-info-list row">
+                                <li class="modal-combo-box-info-list-item col-4 col-lg-2 col-xl-4 mb-3">
+                                    <img src="./assets/images/ic-a-class.svg">
+                                    <span>A 級防護衣</span><p class="primary-color">6 / 4</p>
+                                </li>
+                                <li class="modal-combo-box-info-list-item col-4 col-lg-2 col-xl-4 mb-3">
+                                    <img src="./assets/images/ic-a-class.svg">
+                                    <span>B 級防護衣</span><p class="primary-color">0 / 0</p>
+                                </li>
+                                <li class="modal-combo-box-info-list-item col-4 col-lg-2 col-xl-4 mb-3">
+                                    <img src="./assets/images/ic-a-class.svg">
+                                    <span>吸液棉</span><p class="primary-color">500 / 100</p>
+                                </li>
+                                <li class="modal-combo-box-info-list-item col-4 col-lg-2 col-xl-4 mb-3">
+                                    <img src="./assets/images/ic-a-class.svg">
+                                    <span>SCBA 設備</span><p class="primary-color">10 / 5</p>
+                                </li>
+                                <li class="modal-combo-box-info-list-item col-4 col-lg-2 col-xl-4 mb-3">
+                                    <img src="./assets/images/ic-a-class.svg">
+                                    <span>SCBA 鋼瓶</span><p class="primary-color">6 / 6</p>
+                                </li>
+                                <li class="modal-combo-box-info-list-item col-4 col-lg-2 col-xl-4 mb-3">
+                                    <img src="./assets/images/ic-a-class.svg">
+                                    <span>A級防護衣</span><p class="primary-color">6 / 4</p>
+                                </li>
+                            </ul>
+                           <div class="d-flex justify-content-between align-items-center">
+                            <p class="gray600 font-xs">2023/10/10 更新</p>
+                            <button class="btn btn-border-primary-color hvr-sweep-to-bottom pt-0 pb-1">
+                                more
+                            </button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--工廠危害資訊卡(無資料)-->
+<div class="modal fade" id="factory-hazard-none" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content px-3">
+            <div class="modal-header">
+                <h5 class="modal-title"><img src="./assets/images/ic-factory-hazard.svg" class="me-2">工廠危害資訊卡</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body px-0">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-3">
+                        <h6 class="modal-body-title modal-subtitle mb-md-3 me-md-3" data-con="less">
+                            <p class="d-flex align-items-center flex-wrap">台灣積體電路股份有限公司<span>15B廠</span></p>
+                        </h6>
+                        <button class="btn tiny-btn d-inline-flex align-items-center">
+                            <img src="./assets/images/ic-pin-dark.svg" class="me-1">
+                            <p class="me-4">台中市西屯區中科路1號</p>
+                            <img src="./assets/images/ic-more-primary.svg" class="me-1">
+                        </button>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="section-combo-info bg-gray100 align-items-stretch font-xsm">
+                            <h4
+                                class="section-combo-info-title gray800 bd-gray300 border-end me-3 d-flex align-items-center">
+                                台中廠區
+                            </h4>
+                            <ul class="row section-combo-info-item">
+                                <div class="col-md-6">
+                                    <li class="font-light">統一編號：80435345</li>
+                                </div>
+                                <div class="col-md-6">
+                                    <li class="font-light">系統編號：U121</li>
+                                </div>
+                                <div class="col-md-6">
+                                    <li class="font-light">工廠登記：93F13145</li>
+                                </div>
+                                <div class="col-md-6">
+                                    <li class="font-light">環保管編：A1341412</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-combo-wrapper none">
+                    <div class="modal-combo-box">
+                        <h6 class="modal-combo-box-header">
+                            <img src="./assets/images/ic-factory-dark.svg" class="me-1">工廠狀態
+                        </h6>
+                        <div class="modal-combo-box-body">
+                            <p>上次登入<span class="gray600 ms-3">尚未更新</span></p>
+                            <p>變更密碼<span class="primary-color ms-3 d-inline-flex align-items-center">
+                                <img src="./assets/images/ic-info.svg" class="d-inline-block modal-combo-box-icon me-1"> 2023/1/1 逾期</span>
+                            </p>
+                            <hr>
+                            <ul class="info-list info-list-sm row mb-3 py-2">
+                                <li class="col-4">
+                                    <a href="#" class="info-list-item">
+                                        <h4 class="info-list-title gray600">建物</h4>
+                                        <img src="./assets/images/ic-building-primary.svg" class="info-list-img">
+                                        <div>- <span>件</span></div>
+                                    </a>
+                                </li>
+                                <li class="col-4">
+                                    <a href="#" class="info-list-item">
+                                        <h4 class="info-list-title gray600">平面圖</h4>
+                                        <img src="./assets/images/ic-map-line-primary.svg" class="info-list-img">
+                                        <div>- <span>筆</span></div>
+                                    </a>
+                                </li>
+                                <li class="col-4">
+                                    <a href="#" class="info-list-item">
+                                        <h4 class="info-list-title gray600">儲存位置</h4>
+                                        <img src="./assets/images/ic-save-position-primary.svg" class="info-list-img">
+                                        <div>- <span>區</span></div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="gray600 font-xs">尚無資料</p>
+                        </div>
+                    </div>
+                    <div class="modal-combo-box">
+                        <h6 class="modal-combo-box-header">
+                            <img src="./assets/images/ic-science.svg" class="me-1">化學品
+                            <button class="btn tiny-btn ms-auto" data-bs-toggle="modal" data-bs-target="#factory-hazard">
+                                <img src="./assets/images/ic-edit.svg" alt="編輯">
+                            </button>
+                        </h6>
+                        <div class="modal-combo-box-body">
+                            <a href="#" class="btn-dark-gray500 mb-2" style="height: 40px;">
+                                無毒化物資料
+                            </a>
+                            <a href="#" class="btn-dark-gray500 mb-2" style="height: 40px;">
+                                無危害物資料
+                            </a>
+                            <div class="container px-0 mb-2">
+                                <div class="row gx-2">
+                                    <div class="col-4 mb-2">
+                                        <button class="btn btn-border-gray800 hvr-sweep-to-bottom p-2 w-100">
+                                            <img src="./assets/images/ic-blow.svg" alt="易爆">
+                                            易爆
+                                        </button>
+                                    </div>
+                                    <div class="col-4 mb-2">
+                                        <button class="btn btn-border-gray800 hvr-sweep-to-bottom p-2 w-100">
+                                            <img src="./assets/images/ic-fast.svg" alt="急毒">
+                                            急毒
+                                        </button>
+                                    </div>
+                                    <div class="col-4 mb-2">
+                                        <button class="btn btn-border-gray800 hvr-sweep-to-bottom p-2 w-100">
+                                            <img src="./assets/images/ic-nowater.svg" alt="禁水">
+                                            禁水
+                                        </button>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            class="btn btn-border-gray800 hvr-sweep-to-bottom py-2 w-100 flex-column" style="height: 68px;">
+                                            尚無危害資訊
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="gray600 font-xs">尚無資料</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-combo-box">
+                        <h6 class="modal-combo-box-header">
+                            <img src="./assets/images/ic-contact-user.svg" class="me-1">聯絡人
+                            <button class="btn tiny-btn ms-auto" data-bs-toggle="modal" data-bs-target="#factory-hazard">
+                                <img src="./assets/images/ic-edit.svg" alt="編輯">
+                            </button>
+                        </h6>
+                        <div class="modal-combo-box-body pt-0">
+                            <div class="d-flex flex-column justify-content-center gray500 align-items-center h-100">
+                                <img src="./assets/images/sign-no-person.svg" class="mb-2" style="opacity: 1; width: 48px;">
+                                無聯絡人資料
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="gray600 font-xs">尚無資料</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-combo-box">
+                        <h6 class="modal-combo-box-header">
+                            <img src="./assets/images/ic-material-box.svg" class="me-1">應變資材
+                            <button class="btn tiny-btn ms-auto" data-bs-toggle="modal" data-bs-target="#factory-hazard">
+                                <img src="./assets/images/ic-edit.svg" alt="編輯">
+                            </button>
+                        </h6>
+                        <div class="modal-combo-box-body">
+                            <p class="text-center mb-3">場內備存量／可外借量</p>
+                            <ul class="modal-combo-box-info-list row">
+                                <li class="modal-combo-box-info-list-item col-4 col-lg-2 col-xl-4 mb-3">
+                                    <img src="./assets/images/ic-a-class.svg">
+                                    <span>A 級防護衣</span>
+                                    <p class="gray600">6 / 4</p>
+                                </li>
+                                <li class="modal-combo-box-info-list-item col-4 col-lg-2 col-xl-4 mb-3">
+                                    <img src="./assets/images/ic-a-class.svg">
+                                    <span>B 級防護衣</span>
+                                    <p class="gray600">0 / 0</p>
+                                </li>
+                                <li class="modal-combo-box-info-list-item col-4 col-lg-2 col-xl-4 mb-3">
+                                    <img src="./assets/images/ic-a-class.svg">
+                                    <span>吸液棉</span>
+                                    <p class="gray600">500 / 100</p>
+                                </li>
+                                <li class="modal-combo-box-info-list-item col-4 col-lg-2 col-xl-4 mb-3">
+                                    <img src="./assets/images/ic-a-class.svg">
+                                    <span>SCBA 設備</span>
+                                    <p class="gray600">10 / 5</p>
+                                </li>
+                                <li class="modal-combo-box-info-list-item col-4 col-lg-2 col-xl-4 mb-3">
+                                    <img src="./assets/images/ic-a-class.svg">
+                                    <span>SCBA 鋼瓶</span>
+                                    <p class="gray600">6 / 6</p>
+                                </li>
+                                <li class="modal-combo-box-info-list-item col-4 col-lg-2 col-xl-4 mb-3">
+                                    <img src="./assets/images/ic-a-class.svg">
+                                    <span>A級防護衣</span>
+                                    <p class="gray600">6 / 4</p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="gray600 font-xs">尚無資料</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--彈出視窗結束-->
+				<header>
+				<!--主選單開始-->
+<nav class="navbar fixed-top">
+	<div class="container position-relative flex-nowrap">
+		<a class="navbar-brand flex-shrink-0" href="index.html">
+			<h1 class="mb-0"><img src="./assets/images/logo.svg" alt="好點POS"></h1>
+		</a>
+		<h2 class="navbar-title mb-0 ms-0 ms-md-3 d-block d-xl-none">職業安全衛生資訊管理系統</h2>
+		<ul class="navbar-mobile">
+			<li class="navbar-mobile-item"><a href="mis-index.html" class="navbar-mobile-link">首頁</a></li>
+			<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">綜合查詢</a></li>
+			<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">資料匯入</a></li>
+			<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">資料匯出</a></li>
+			<li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">地圖模式</a></li>
+		</ul>
+		<div class="navbar-function flex-row w-100 flex-shrink-1">
+			<div class="w-100 position-relative">
+				<label for="fast-locate" class="form-label primary-color mb-0">快速定位</label>
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="業者(名稱、統編、工登)、郵遞區號、經緯度"
+						data-bs-toggle="collapse" data-bs-target="#fast-locate-autofill">
+					<button class="btn ps-3 pe-0" type="button">
+						<img src="./assets/images/ic-search.svg" alt="搜尋">
+					</button>
+				</div>
+				<div class="form-dropdown-content collapse" id="fast-locate-autofill">
+					<div class="card card-body p-0">
+						<ul class="input-group-dropdown" data-bs-toggle="collapse"
+							data-bs-target="#fast-locate-autofill">
+							<li>位置1</li>
+							<li>位置2</li>
+							<li>位置3</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<li class="nav-item d-none d-sm-block">
+				<a href="gis-index.html" class="nav-link"><img src="./assets/images/ic-locate.svg" alt="現在位置">
+					<p>現在位置</p>
+				</a>
+			</li>
+		</div>
+		<div class="navbar-function">
+			<h2 class="navbar-function-title">
+				<img src="./assets/images/ic-pin-function.svg" alt="地圖功能">
+				<p class="primary-color">地圖功能</p>
+			</h2>
+			<ul class="navbar-function-list">
+				<li class="navbar-function-item"><a href="gis-draw.html" target="gis-side" class="navbar-function-link">繪圖</a></li>
+				<li class="navbar-function-item"><a href="gis-search.html" target="gis-side" class="navbar-function-link">查詢</a></li>
+				<li class="navbar-function-item"><a href="gis-show.html" target="gis-side" class="navbar-function-link">顯示</a></li>
+				<li class="navbar-function-item"><a href="gis-bgmap.html" target="gis-side" class="navbar-function-link">底圖</a></li>
+			</ul>
+		</div>
+		<ul class="navbar-nav" data-con="mis">
+			<li class="nav-item d-none d-sm-block">
+				<a href="mis-index.html" class="nav-link"><img src="./assets/images/ic-list.svg" alt="列表模式">
+					<p>列表模式</p>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link nav-toggler js-nav-toggler collapsed" data-bs-toggle="collapse"
+					data-bs-target="#navbarCollapse">
+					<div class="nav-toggler-img">
+						<div class="nav-toggler-bar nav-toggler-bar1"></div>
+						<div class="nav-toggler-bar nav-toggler-bar2"></div>
+						<div class="nav-toggler-bar nav-toggler-bar3"></div>
+					</div>
+					<p>功能選單</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+<div class="collapse navbar-collapse js-navbar-collapse" id="navbarCollapse" data-con="gis">
+	<ul class="navbar-dropdown row px-5 py-4">
+		<li class="navbar-dropdown-item col-12 d-xl-none" data-con="locate">
+			<label for="fast-locate" class="form-label primary-color mb-0 flex-shrink-0 me-3">快速定位</label>
+			<div class="input-group me-4">
+				<input type="text" class="form-control" placeholder="業者(名稱、統編、工登)、郵遞區號、經緯度" data-bs-toggle="collapse"
+					data-bs-target="#fast-locate-autofill">
+				<button class="btn ps-3 pe-0" type="button">
+					<img src="./assets/images/ic-search.svg" alt="搜尋">
+				</button>
+				<div class="form-dropdown-content collapse w-100" id="fast-locate-autofill">
+					<div class="card card-body p-0">
+						<ul class="input-group-dropdown" data-bs-toggle="collapse"
+							data-bs-target="#fast-locate-autofill">
+							<li>位置1</li>
+							<li>位置2</li>
+							<li>位置3</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+			<a href="gis-index.html" class="nav-link flex-md-row flex-shrink-0">
+				<img src="./assets/images/ic-locate.svg" alt="現在位置" class="me-1">
+				<p>現在位置</p>
+			</a>
+
+		</li>
+		<li class="navbar-dropdown-item col-6 col-md">
+			<h2 class="navbar-dropdown-title">資料檢視</h2>
+			<ul>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">首頁</a>
+				</li>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">綜合查詢</a>
+				</li>
+			</ul>
+		</li>
+		<li class="navbar-dropdown-item col-6 col-md">
+			<h2 class="navbar-dropdown-title">資料匯入</h2>
+			<ul>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">物質</a>
+				</li>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">聯絡人</a>
+				</li>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">應變資材</a>
+				</li>
+			</ul>
+		</li>
+		<li class="navbar-dropdown-item col-6 col-md">
+			<h2 class="navbar-dropdown-title">帳號管理</h2>
+			<ul>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">資料維護</a>
+				</li>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">密碼設定</a>
+				</li>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">資安設定</a>
+				</li>
+			</ul>
+		</li>
+		<li class="navbar-dropdown-item col-6 col-md">
+			<h2 class="navbar-dropdown-title">地圖功能</h2>
+			<ul class="js-map-function-menu">
+				<li class="navbar-dropdwon-item"><a href="gis-draw.html" target="gis-side" class="navbar-dropdown-link">繪圖</a></li>
+				<li class="navbar-dropdwon-item"><a href="gis-search.html" target="gis-side" class="navbar-dropdown-link">查詢</a></li>
+				<li class="navbar-dropdwon-item"><a href="gis-show.html" target="gis-side" class="navbar-dropdown-link">顯示報表</a></li>
+				<li class="navbar-dropdwon-item"><a href="gis-bgmap.html" class="navbar-dropdown-link">底圖</a></li>
+			</ul>
+		</li>
+		<li class="navbar-dropdown-item col-6 col-md">
+			<h2 class="navbar-dropdown-title">資料檢視</h2>
+			<ul>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">首頁</a>
+				</li>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">綜合查詢</a>
+				</li>
+			</ul>
+		</li>
+		<li class="navbar-dropdown-item col-6 col-md">
+			<h2 class="navbar-dropdown-title">資料匯入</h2>
+			<ul>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">物質</a>
+				</li>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">聯絡人</a>
+				</li>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">應變資材</a>
+				</li>
+			</ul>
+		</li>
+		<li class="navbar-dropdown-item col-6 col-md">
+			<h2 class="navbar-dropdown-title">帳號管理</h2>
+			<ul>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">資料維護</a>
+				</li>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">密碼設定</a>
+				</li>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">資安設定</a>
+				</li>
+			</ul>
+		</li>
+		<li class="navbar-dropdown-item col-6 col-md">
+			<h2 class="navbar-dropdown-title">系統功能</h2>
+			<ul>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">地圖模式</a>
+				</li>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">列表模式</a>
+				</li>
+				<li class="navbar-dropdwon-item"><a href="#" class="navbar-dropdown-link">登出系統</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<!--主選單結束-->
+				</header>
+				<!--內容開始-->
+				<!--麵包屑開始-->
+<nav class="bg-primary-color js-breadcrumb ml-open mr-open">
+	<div class="container">
+		<ol class="breadcrumb scrollbar" data-con="gis">
+			<li class="breadcrumb-item"><a href="mis-index.html" class="breadcrumb-link">室內地圖</a></li>
+			<li class="breadcrumb-item"><a href="#" class="breadcrumb-link">台灣積體電路 - 15B廠</a></li>
+			<li class="breadcrumb-item">
+				<select class="form-select">
+					<option selected>FAB1</option>
+					<option value="1">One</option>
+					<option value="2">Two</option>
+					<option value="3">Three</option>
+				</select>
+			</li>
+			<li class="breadcrumb-item">
+				<select class="form-select">
+					<option selected>F1</option>
+					<option value="1">One</option>
+					<option value="2">Two</option>
+					<option value="3">Three</option>
+				</select>
+			</li>
+		</ol>
+	</div>
+</nav>
+<!--麵包屑結束-->
+<!--左側選單開始-->
+<div class="side-menu js-side-menu" id="side-menu" data-con="map">
+    <button class="btn btn-dark-primary-color side-menu-toggler js-side-menu-toggler" type="button">
+        <img src="./assets/images/ic-chevron-left.svg" alt="導引列表icon" class="me-1">
+    </button>
+	<iframe src="gis-draw.html" frameborder="0" scrolling="auto" id="gis-side" name="gis-side" onload="this.height=100"
+		class="js-iframe w-100">
+	</iframe>
+</div>
+<!--左側選單結束-->
+<!--右側選單開始-->
+<div class="side-menu js-side-menu-right" id="side-menu" data-con="map" data-position="right">
+	<button class="btn btn-dark-primary-color side-menu-toggler js-side-menu-toggler-right" type="button">
+		<img src="./assets/images/ic-chevron-left.svg" alt="導引列表icon" class="ms-1">
+	</button>
+	<iframe src="gis-view.html" frameborder="0" scrolling="auto" id="gis-side-right" name="gis-side-right"
+		onload="this.height=100" class="js-iframe w-100">
+	</iframe>
+</div>
+<!--右側選單結束-->
+<!--地圖區塊開始-->
+<div class="side-content" data-con="map">
+	<ul class="position-fixed" style="left: 50%;top: 50%;background: #fff;padding: 10px;">
+		<li><a href="gis-view.html" target="gis-side-right">資料檢視(化學品視窗)</a></li>
+		<li><a href="#panorama" data-bs-toggle="modal">環景影像(彈出視窗)</a></li>
+	</ul>
+	
+	<img src="./assets/images/demo-map.jpg" style="width: 100%;height: 100%;">
+</div>
+<!--地圖區塊結束-->
+				<!--內容結束-->
+			</div>
+			<!-- SCRIPTS -->
+			<script src="assets/js/jquery-3.7.0.min.js"></script>
+<script src='assets/js/jquery-ui.min.js'></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="assets/js/moment-with-locales.min.js"></script>
+<script src="assets/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    $(function () {
+        $('#export-from').datetimepicker({
+            locale: 'zh-tw',
+            defaultDate: new Date(),
+            format: 'L',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        });
+        $('#export-to').datetimepicker({
+            locale: 'zh-tw',
+            defaultDate: new Date(),
+            format: 'L',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        });
+         $(document).ready(function () {
+            var myModal = $('#modal-alert');
+            setTimeout(function () {
+                // 使用淡入效果顯示 modal
+                myModal.modal('show').css('opacity', 0).animate({ opacity: 1 }, 300);
+            }, 1000); // 顯示 modal，延遲 1 秒
+            setTimeout(function () {
+                // 使用淡出效果關閉 modal
+                myModal.animate({ opacity: 0 }, 300, function () {
+                    myModal.modal('hide');
+                });
+            }, 4000); // 關閉 modal，延遲 4 秒
+        });
+    });
+</script>
+		</body>
+		<script>
+			//iframe內網頁呼叫開啟modal
+			function openParentModal(modalId) {
+				const parentModal = document.querySelector(modalId);
+				$(parentModal).modal("show");
+			}
+		</script>
+</html>

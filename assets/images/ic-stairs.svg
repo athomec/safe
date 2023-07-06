@@ -1,0 +1,8 @@
+<svg id="ic-stairs" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_246" data-name="Group 246">
+    <path id="Path_320" data-name="Path 320" d="M0,0H24V24H0Z" fill="none"/>
+  </g>
+  <g id="Group_247" data-name="Group 247">
+    <path id="Path_321" data-name="Path 321" d="M14,13V12a1,1,0,0,0-1-1H9a1,1,0,0,0-1,1v4a1,1,0,0,0,1,1h4a1,1,0,0,0,1-1V15l2,1.06V11.94ZM12,5.5,18,10v9H6V10l6-4.5M12,3,4,9V21H20V9Z" fill="#333"/>
+  </g>
+</svg>

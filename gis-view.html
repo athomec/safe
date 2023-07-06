@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <title>職業安全衛生資訊管理系統</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="職業安全衛生資訊管理系統,職業安全衛生資訊,職業安全衛生,安全衛生資訊">
+    <meta name="description" content="職業安全衛生資訊管理系統" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:site_name" content="image.png" />
+    <meta property="og:image" content="./assets/images/fb-img.png" />
+    <!--分享設定-->
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <!--iconfont設定-->
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <!--css設定-->
+</head>
+		<body class="scrollbar scrollx-none">
+			<div class="wrapper">
+				<!--內容開始-->
+				<div class="side-menu-header">
+    <img src="./assets/images/ic-info.svg" class="me-1"> 資料檢視
+</div>
+<div class="side-menu-body px-4 py-3">
+    <div class="accordion accordion-basic" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#view1">
+                    <h3 class="side-menu-body-title">
+                        <img src="./assets/images/ic-building-md.svg">台灣積體電路股份 ⁄ 15B廠
+                    </h3>
+                </button>
+            </h2>
+            <div id="view1" class="accordion-collapse collapse show">
+                <div class="accordion-body p-0">
+                    <div class="d-flex justify-content-between align-items-start ps-3 mb-2">
+                        <p> 04-2565-8588 #151 <span class="ms-3">陳秀宜</span><br>
+                            <img src="./assets/images/ic-pin-dark.svg" class="d-inline-block"> 台中市西屯區中科路123號
+                        </p>
+                        <button class="btn tiny-btn" onclick="parent.openParentModal('#factory-hazard-none')">
+                            <img src="./assets/images/ic-detail-card.svg" alt="編輯">
+                        </button>
+                    </div>
+                    <ul class="custom-row rounded bg-gray100 px-3 py-2 mb-3">
+                        <li class="custom-col-6">系統編號：U121</li>
+                        <li class="custom-col-6">工廠登記：93F13145</li>
+                        <li class="custom-col-6">統一編號：80435345</li>
+                        <li class="custom-col-6">環保管編：A1341412</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#view2">
+                    <h3 class="side-menu-body-title"><img src="./assets/images/ic-object.svg">物件資訊</h3>
+                </button>
+            </h2>
+            <div id="view2" class="accordion-collapse collapse">
+                <div class="accordion-body p-0">
+                    <div class="d-flex justify-content-between align-items-start ps-3 mb-2">
+                        <p>
+                            建物 ⁄ Ａ大樓
+                            <br>
+                            樓高 40m <span class="border-start bd-primary-color ms-2 ps-2 d-inline-block" style="line-height:1;">地下 1F ~ 地上 10F</span>
+                        </p>
+                        <button class="btn tiny-btn">
+                            <img src="./assets/images/ic-edit.svg" alt="編輯">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#view3">
+                    <h3 class="side-menu-body-title"><img src="./assets/images/ic-stairs.svg">樓層資訊</h3>
+                </button>
+            </h2>
+            <div id="view3" class="accordion-collapse collapse">
+                <div class="accordion-body p-0">
+                    待確認
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+				<!--內容結束-->
+			</div>
+			<!-- SCRIPTS -->
+			<script src="assets/js/jquery-3.7.0.min.js"></script>
+<script src='assets/js/jquery-ui.min.js'></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="assets/js/moment-with-locales.min.js"></script>
+<script src="assets/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    $(function () {
+        $('#export-from').datetimepicker({
+            locale: 'zh-tw',
+            defaultDate: new Date(),
+            format: 'L',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        });
+        $('#export-to').datetimepicker({
+            locale: 'zh-tw',
+            defaultDate: new Date(),
+            format: 'L',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        });
+         $(document).ready(function () {
+            var myModal = $('#modal-alert');
+            setTimeout(function () {
+                // 使用淡入效果顯示 modal
+                myModal.modal('show').css('opacity', 0).animate({ opacity: 1 }, 300);
+            }, 1000); // 顯示 modal，延遲 1 秒
+            setTimeout(function () {
+                // 使用淡出效果關閉 modal
+                myModal.animate({ opacity: 0 }, 300, function () {
+                    myModal.modal('hide');
+                });
+            }, 4000); // 關閉 modal，延遲 4 秒
+        });
+    });
+</script>
+		</body>
+</html>

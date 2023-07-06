@@ -1,0 +1,11 @@
+<svg id="ic-blow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_163" data-name="Rectangle 163" width="20" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_196" data-name="Group 196" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="Path_248" data-name="Path 248" d="M20,10A10,10,0,1,1,10,0,10,10,0,0,1,20,10" transform="translate(0 0)" fill="#f15a24"/>
+    <path id="Path_249" data-name="Path 249" d="M13.9,6.22a13.847,13.847,0,0,0-1.3,1.392,17.994,17.994,0,0,0-2.3-2.58C8.014,7.148,6.4,9.9,6.4,11.565a5.273,5.273,0,0,0,5.2,5.345,5.273,5.273,0,0,0,5.2-5.345c0-1.235-1.205-3.784-2.887-5.345m-.451,7.9a3.119,3.119,0,0,1-1.792.56,2.857,2.857,0,0,1-3.035-2.906c0-.9.564-1.685,1.688-3.033.161.185,2.293,2.908,2.293,2.908L13.965,10.1c.1.158.183.314.261.463A2.767,2.767,0,0,1,13.451,14.123Z" transform="translate(-1.593 -1.253)" fill="#fff"/>
+  </g>
+</svg>
