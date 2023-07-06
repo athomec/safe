@@ -45,8 +45,8 @@ $(function () {//JS開頭
 			}
 		}.bind(this), 1000); // 設置計時器間隔為1秒(1000毫秒)
 	});
-//上方選單開啟左右視窗
-	$(".js-map-function-menu").find("a").click(function() {
+	//上方選單開啟左右視窗
+	$(".js-map-function-menu").find("a").click(function () {
 		$('.js-side-menu').removeClass("close");
 		var button = document.querySelector(".js-nav-toggler");
 		button.click();
@@ -65,7 +65,7 @@ $(function () {//JS開頭
 			$(".js-breadcrumb").addClass("ml-open");
 		}
 	}
-//數字表單
+	//數字表單
 	const formNumbers = document.querySelectorAll('.form-number');
 
 	formNumbers.forEach((formNumber) => {
@@ -117,7 +117,7 @@ $(function () {//JS開頭
 		$(".js-iframe").removeClass("iframe-map-height");
 		$("body").removeClass("scrolly-none");
 	})
-//modal無內容控制
+	//modal無內容控制
 	$('.js-modal-show-box').each(function () {
 		var hasContent = $(this).children().length > 0 || $(this).text().trim() !== '';
 		if (!hasContent) {
@@ -133,11 +133,11 @@ $(function () {//JS開頭
 
 	RESIZE();
 
+	var isKeyboardOpen = false; // 追踪手機鍵盤的狀態
 	function RESIZE() {
 		var WINDOW = $(window).width();
 		var WINDOWH = $(window).height();
 
-		var isKeyboardOpen = false; // 追踪手機鍵盤的狀態
 		// 綁定輸入框的焦點事件
 		$('input, textarea').on('focus', function () {
 			isKeyboardOpen = true;
@@ -148,7 +148,6 @@ $(function () {//JS開頭
 			isKeyboardOpen = false;
 			handleKeyboard();
 		});
-		
 
 		if (WINDOW < 992) {
 			if (!isKeyboardOpen) {
@@ -157,20 +156,17 @@ $(function () {//JS開頭
 				$(".js-breadcrumb").removeClass("ml-open");
 				$(".js-breadcrumb").removeClass("mr-open");
 			}
-			
+
 		}
 		if (WINDOW < 768) {
-			if (!isKeyboardOpen) {
-				$(".js-navbar-collapse").removeClass("show");
-				$(".js-nav-toggler").addClass("collapsed");
-			}
-			
+			$(".js-navbar-collapse").removeClass("show");
+			$(".js-nav-toggler").addClass("collapsed");
 		}
 	}
 	$(window).resize(function () {
 		RESIZE();
 	})
-	
+
 
 })//JS尾端	
 
