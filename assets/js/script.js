@@ -150,26 +150,26 @@ $(function () {//JS開頭
 	$(window).resize(function () {
 		RESIZE();
 	})
-	$('input').on('focus', function () {
-		checkKeyboard();
-	});
+	var isKeyboardOpen = false; // 追踪手機鍵盤的狀態
 
-	$('input').on('blur', function () {
-		checkKeyboard();
-	});
+		// 綁定輸入框的焦點事件
+		$('input, textarea').on('focus', function () {
+			isKeyboardOpen = true;
+			handleKeyboard();
+		});
 
-	function checkKeyboard() {
-		var windowHeight = $(window).height();
-		var inputHeight = $('input:focus').outerHeight();
-		var keyboardHeight = windowHeight - inputHeight;
+		// 綁定輸入框的失去焦點事件
+		$('input, textarea').on('blur', function () {
+			isKeyboardOpen = false;
+			handleKeyboard();
+		});
 
-		if (keyboardHeight > 0) {
-			// 手機鍵盤未彈出
-			RESIZE();
-		} else {
-			// 手機鍵盤彈出
-			// 在這裡添加你想要的操作
-		}
-	}
+		// 綁定視窗大小變更事件
+		$(window).on('resize', function () {
+			if (!isKeyboardOpen) {
+				handleResize();
+			}
+		});
+
 })//JS尾端	
 
