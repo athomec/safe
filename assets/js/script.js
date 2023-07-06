@@ -150,5 +150,26 @@ $(function () {//JS開頭
 	$(window).resize(function () {
 		RESIZE();
 	})
+	$('input').on('focus', function () {
+		checkKeyboard();
+	});
+
+	$('input').on('blur', function () {
+		checkKeyboard();
+	});
+
+	function checkKeyboard() {
+		var windowHeight = $(window).height();
+		var inputHeight = $('input:focus').outerHeight();
+		var keyboardHeight = windowHeight - inputHeight;
+
+		if (keyboardHeight > 0) {
+			// 手機鍵盤未彈出
+			RESIZE();
+		} else {
+			// 手機鍵盤彈出
+			// 在這裡添加你想要的操作
+		}
+	}
 })//JS尾端	
 
