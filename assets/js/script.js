@@ -136,40 +136,41 @@ $(function () {//JS開頭
 	function RESIZE() {
 		var WINDOW = $(window).width();
 		var WINDOWH = $(window).height();
-		if (WINDOW < 992) {
-			$('.js-side-menu').addClass("close");
-			$('.js-side-menu-right').addClass("close");
-			$(".js-breadcrumb").removeClass("ml-open");
-			$(".js-breadcrumb").removeClass("mr-open");
-		}
-		if (WINDOW < 768) {
-			$(".js-navbar-collapse").removeClass("show");
-			$(".js-nav-toggler").addClass("collapsed");
-		}
-	}
-	$(window).resize(function () {
-		RESIZE();
-	})
-	var isKeyboardOpen = false; // 追踪手機鍵盤的狀態
 
+		var isKeyboardOpen = false; // 追踪手機鍵盤的狀態
 		// 綁定輸入框的焦點事件
 		$('input, textarea').on('focus', function () {
 			isKeyboardOpen = true;
 			handleKeyboard();
 		});
-
 		// 綁定輸入框的失去焦點事件
 		$('input, textarea').on('blur', function () {
 			isKeyboardOpen = false;
 			handleKeyboard();
 		});
+		
 
-		// 綁定視窗大小變更事件
-		$(window).on('resize', function () {
+		if (WINDOW < 992) {
 			if (!isKeyboardOpen) {
-				handleResize();
+				$('.js-side-menu').addClass("close");
+				$('.js-side-menu-right').addClass("close");
+				$(".js-breadcrumb").removeClass("ml-open");
+				$(".js-breadcrumb").removeClass("mr-open");
 			}
-		});
+			
+		}
+		if (WINDOW < 768) {
+			if (!isKeyboardOpen) {
+				$(".js-navbar-collapse").removeClass("show");
+				$(".js-nav-toggler").addClass("collapsed");
+			}
+			
+		}
+	}
+	$(window).resize(function () {
+		RESIZE();
+	})
+	
 
 })//JS尾端	
 
