@@ -16925,10 +16925,8 @@ section[data-con="links"] {
   color: #292929;
   padding: 1rem 1.5rem; }
   .side-menu-list-link:hover {
-    background: #fef9f3;
+    background: #ffe8d2;
     color: #292929; }
-    .side-menu-list-link:hover .side-menu-list-title {
-      color: #ED831B; }
 
 .side-menu-list-content {
   width: 100%; }
