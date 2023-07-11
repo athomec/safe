@@ -15065,7 +15065,7 @@ input:focus, select:focus {
   flex: 0 1 auto; }
 
 body {
-  font-family: Noto Sans TC, 微軟正黑體;
+  font-family: Noto Sans TC, 微軟正黑體;
   overflow: auto !important;
   padding-right: 0 !important; }
 
@@ -15860,7 +15860,8 @@ footer {
     -webkit-filter: grayscale(0);
     opacity: 1; }
 
-.modal-combo-wrapper.none .modal-combo-box-body a, .modal-combo-wrapper.none .modal-combo-box-body button {
+.modal-combo-wrapper.none .modal-combo-box-body a,
+.modal-combo-wrapper.none .modal-combo-box-body button {
   pointer-events: none; }
 
 .modal-combo-wrapper.none .modal-combo-box-body button {
@@ -15868,7 +15869,7 @@ footer {
 
 .modal-combo-wrapper.none .modal-combo-box-body img {
   -webkit-filter: grayscale(1);
-  opacity: .5; }
+  opacity: 0.5; }
 
 .modal-combo-wrapper.none .info-list-item {
   color: #a3a3a3; }
@@ -16087,6 +16088,9 @@ footer {
       @media (max-width: 991px) {
         .section-combo-info-item {
           font-size: 0.9rem; } }
+      @media (max-width: 576px) {
+        .section-combo-info-item {
+          width: 100%; } }
       .section-combo-info-item li {
         margin-bottom: 0.3rem; }
       .section-combo-info-item span {
@@ -16098,6 +16102,14 @@ footer {
           .section-combo-info-item span {
             padding-left: 0.5rem;
             margin-left: 0.5rem; } }
+        @media (max-width: 576px) {
+          .section-combo-info-item span {
+            display: block;
+            width: 100%;
+            border-left: 0;
+            padding-left: 0;
+            margin-left: 0;
+            color: #ED831B; } }
   .section-combo-sign {
     display: flex;
     align-items: center; }
