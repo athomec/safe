@@ -17570,7 +17570,8 @@ section[data-con="links"] {
     justify-content: flex-start; }
     @media (max-width: 485px) {
       .building[data-con="import"] .building-none {
-        font-size: 0.9rem; } }
+        font-size: 0.9rem;
+        align-items: flex-start; } }
   .building[data-con="import"] .building-floor:after {
     margin-top: 0; }
 
