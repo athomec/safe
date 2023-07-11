@@ -22,8 +22,64 @@
 				<div class="side-menu-header">
     <img src="./assets/images/ic-tool-setting.svg" class="me-1"> 地圖設定
 </div>
-<div class="side-menu-body px-4 pt-4 pb-3">
-    <h3 class="side-menu-body-title"><img src="./assets/images/ic-square.svg">圖磚來源</h3>
+<div class="side-menu-body p-0">
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#bgmap1"
+                type="button" role="tab">底圖切換</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#bgmap2" type="button"
+                role="tab">物件顯示</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#bgmap3" type="button"
+                role="tab">物件顯示</button>
+        </div>
+    </nav>
+    <div class="tab-content p-4" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="bgmap1" role="tabpanel" tabindex="0">
+            <h3 class="side-menu-body-title"><img src="./assets/images/ic-square.svg">圖磚來源</h3>
+            <hr>
+            <ul class="row img-list gx-3">
+                <li class="col-6 mb-3">
+                    <a href="#" class="img-list-link">
+                        <img src="./assets/images/map-bg1.jpg" class="mb-2">
+                        <p>國土測繪街道</p>
+                    </a>
+                </li>
+                <li class="col-6 mb-3">
+                    <a href="#" class="img-list-link">
+                        <img src="./assets/images/map-bg2.jpg" class="mb-2">
+                        <p>國土測繪衛星</p>
+                    </a>
+                </li>
+                <li class="col-6 mb-3">
+                    <a href="#" class="img-list-link active">
+                        <img src="./assets/images/map-bg3.jpg" class="mb-2">
+                        <p>GoogleMap街道</p>
+                    </a>
+                </li>
+                <li class="col-6 mb-3">
+                    <a href="#" class="img-list-link">
+                        <img src="./assets/images/map-bg4.jpg" class="mb-2">
+                        <p>GoogleMap衛星</p>
+                    </a>
+                </li>
+                <li class="col-6 mb-3">
+                    <a href="#" class="img-list-link">
+                        <img src="./assets/images/map-bg5.jpg" class="mb-2">
+                        <p>OSM街道</p>
+                    </a>
+                </li>
+                <li class="col-6 mb-3">
+                    <a href="#" class="img-list-link">
+                        <img src="./assets/images/map-bg6.jpg" class="mb-2">
+                        <p>高反差縣市</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="bgmap2" role="tabpanel" tabindex="0">...</div>
+        <div class="tab-pane fade" id="bgmap3" role="tabpanel" tabindex="0">...</div>
+    </div>
+
 </div>
 				<!--內容結束-->
 			</div>

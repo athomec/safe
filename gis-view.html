@@ -34,10 +34,17 @@
             </h2>
             <div id="view1" class="accordion-collapse collapse show">
                 <div class="accordion-body p-0">
-                    <div class="d-flex justify-content-between align-items-start ps-3 mb-2">
-                        <p> 04-2565-8588 #151 <span class="ms-3">陳秀宜</span><br>
-                            <img src="./assets/images/ic-pin-dark.svg" class="d-inline-block"> 台中市西屯區中科路123號
-                        </p>
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <div class="me-2">
+                            <p class="d-flex align-items-start">
+                                <img src="./assets/images/ic-pin-dark.svg" class="mt-1 me-2">
+                                <span>台中市西屯區中科路123號</span>
+                            </p>
+                            <p class="d-flex align-items-start">
+                                <img src="./assets/images/ic-idcard.svg" class="mt-1 me-2">
+                                <span>04-2565-8588 #151 陳秀宜</span>
+                            </p>
+                        </div>
                         <button class="btn tiny-btn" onclick="parent.openParentModal('#factory-hazard-none')">
                             <img src="./assets/images/ic-detail-card.svg" alt="編輯">
                         </button>
@@ -53,18 +60,44 @@
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#view2">
-                    <h3 class="side-menu-body-title"><img src="./assets/images/ic-object.svg">物件資訊</h3>
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#view2">
+                    <h3 class="side-menu-body-title">
+                        <img src="./assets/images/ic-building-md.svg">工廠資訊
+                    </h3>
                 </button>
             </h2>
             <div id="view2" class="accordion-collapse collapse">
+                <div class="accordion-body p-0">
+                    <div class="d-flex justify-content-between align-items-start mb-2">
+                        <div class="me-2">
+                            共用建築
+                            <p class="d-flex align-items-start">
+                                <img src="./assets/images/ic-pin-dark.svg" class="mt-1 me-2">
+                                <span>台中市西屯區中科路123號</span>
+                            </p>
+                        </div>
+                        <button class="btn tiny-btn" onclick="parent.openParentModal('#factory-hazard-none')">
+                            <img src="./assets/images/ic-detail-card.svg" alt="編輯">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#view3">
+                    <h3 class="side-menu-body-title"><img src="./assets/images/ic-object.svg">物件資訊</h3>
+                </button>
+            </h2>
+            <div id="view3" class="accordion-collapse collapse">
                 <div class="accordion-body p-0">
                     <div class="d-flex justify-content-between align-items-start ps-3 mb-2">
                         <p>
                             建物 ⁄ Ａ大樓
                             <br>
-                            樓高 40m <span class="border-start bd-primary-color ms-2 ps-2 d-inline-block" style="line-height:1;">地下 1F ~ 地上 10F</span>
+                            樓高 40m <span class="border-start bd-primary-color ms-2 ps-2 d-inline-block"
+                                style="line-height:1;">地下 1F ~ 地上 10F</span>
                         </p>
                         <button class="btn tiny-btn">
                             <img src="./assets/images/ic-edit.svg" alt="編輯">
@@ -76,13 +109,120 @@
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#view3">
+                    data-bs-target="#view4">
                     <h3 class="side-menu-body-title"><img src="./assets/images/ic-stairs.svg">樓層資訊</h3>
                 </button>
             </h2>
-            <div id="view3" class="accordion-collapse collapse">
+            <div id="view4" class="accordion-collapse collapse">
                 <div class="accordion-body p-0">
-                    待確認
+                    <div class="side-menu-form mb-3 align-items-stretch">
+                        <label for="danger-info" class="visually-hidden form-label">危害資訊</label>
+                        <select class="form-select me-2" id="danger-info">
+                            <option selected="">危害資訊</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <button
+                            class="side-menu-btn btn btn-border-primary-color hvr-sweep-to-right rounded flex-shrink-0"
+                            type="button" onclick="parent.openParentModal('#flat-setting')">
+                            <img src="./assets/images/ic-plan.svg" alt=""> 平面圖
+                        </button>
+                    </div>
+                    <div class="building bd-gray300 border mb-5">
+                        <div class="building-on">
+                            <div class="building-header"><img src="./assets/images/ic-roof.svg" class="w-100"></div>
+                            <ul class="building-floor">
+                                <li class="building-floor-item">
+                                    <a href="#" class="building-floor-link">
+                                        <p class="building-floor-title"><span>5F</span>實驗中心</p>
+                                        <div class="building-floor-map"><img src="./assets/images/demo-p2.png"></div>
+                                    </a>
+                                </li>
+                                <li class="building-floor-item">
+                                    <a href="#" class="building-floor-link">
+                                        <p class="building-floor-title"><span>4F</span>實驗中心</p>
+                                        <div class="d-flex flex-column align-items-center w-100">
+                                            <ul class="building-sign mb-2">
+                                                <li data-con="fire"><img src="./assets/images/ic-fire.svg"></li>
+                                                <li data-con="poison"><img src="./assets/images/ic-poison.svg"></li>
+                                                <li data-con="nowater"><img src="./assets/images/ic-nowater.svg"></li>
+                                            </ul>
+                                            <ul class="building-txt-primary-dark-color">
+                                                <li>環氧乙院</li>
+                                                <li>DMF</li>
+                                                <li>AAA</li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="building-floor-item">
+                                    <a href="#" class="building-floor-link">
+                                        <p class="building-floor-title"><span>3F</span>實驗中心</p>
+                                        <div class="d-flex flex-column align-items-center w-100">
+                                            <ul class="building-sign">
+                                                <li data-con="fire"></li>
+                                                <li data-con="poison"></li>
+                                                <li data-con="nowater"></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="building-floor-item">
+                                    <a href="#" class="building-floor-link">
+                                        <p class="building-floor-title"><span>2F</span>實驗中心</p>
+                                        <div class="d-flex w-100 flex-column">
+                                            <div class="building-danger-list">
+                                                <img src="./assets/images/ic-danger.svg" class="me-1">
+                                                <img src="./assets/images/ic-danger.svg" class="me-1">
+                                                <img src="./assets/images/ic-danger.svg" class="me-1">
+                                                <img src="./assets/images/ic-danger.svg">
+                                            </div>
+                                            <div class="building-danger-list" style="margin-top: -5px;">
+                                                <img src="./assets/images/ic-danger.svg" class="me-1">
+                                                <img src="./assets/images/ic-danger.svg" class="me-1">
+                                                <img src="./assets/images/ic-danger.svg" class="me-1">
+                                                <img src="./assets/images/ic-danger.svg" class="me-1">
+                                                <img src="./assets/images/ic-danger.svg">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="building-floor-item">
+                                    <a href="#" class="building-floor-link">
+                                        <p class="building-floor-title"><span>1F</span>實驗中心</p>
+                                        <div class="building-none"><img
+                                                src="./assets/images/ic-noflat.svg" class="me-2">未綁定平面圖</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="building-under">
+                            <ul class="building-floor">
+                                <li class="building-floor-item">
+                                    <a href="#" class="building-floor-link">
+                                        <p class="building-floor-title"><span>B1</span>實驗中心</p>
+                                        <div class="building-factory">
+                                            <span>4</span>
+                                        </div>
+                                        <ul class="building-txt-stable-color building-txt-col-6">
+                                            <li>景明貿易</li>
+                                            <li>景明貿易</li>
+                                            <li>景明貿易</li>
+                                            <li>景明貿易</li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="building-floor-item">
+                                    <a href="#" class="building-floor-link">
+                                        <p class="building-floor-title"><span>B2</span>實驗中心</p>
+                                        <div class="building-none"><img
+                                                src="./assets/images/ic-noflat.svg" class="me-2">未綁定平面圖</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

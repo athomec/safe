@@ -50,21 +50,11 @@ $(function () {//JS開頭
 		$('.js-side-menu').removeClass("close");
 		var button = document.querySelector(".js-nav-toggler");
 		button.click();
-		open_left();
 	})
 	//----------------左側選單控制-----------------
 	$(".js-side-menu-toggler").click(function () {
 		$('.js-side-menu').toggleClass("close");
-		open_left();
-
 	})
-	function open_left() {
-		if ($('.js-side-menu').hasClass("close")) {
-			$(".js-breadcrumb").removeClass("ml-open");
-		} else {
-			$(".js-breadcrumb").addClass("ml-open");
-		}
-	}
 	//數字表單
 	const formNumbers = document.querySelectorAll('.form-number');
 
@@ -98,16 +88,8 @@ $(function () {//JS開頭
 	//----------------右側選單控制-----------------
 	$(".js-side-menu-toggler-right").click(function () {
 		$('.js-side-menu-right').toggleClass("close");
-		open_right();
 
 	})
-	function open_right() {
-		if ($('.js-side-menu-right').hasClass("close")) {
-			$(".js-breadcrumb").removeClass("mr-open");
-		} else {
-			$(".js-breadcrumb").addClass("mr-open");
-		}
-	}
 
 	$(".js-draggable").draggable();
 
@@ -140,8 +122,6 @@ $(function () {//JS開頭
 		if (WINDOW < 992) {
 			$('.js-side-menu').addClass("close");
 			$('.js-side-menu-right').addClass("close");
-			$(".js-breadcrumb").removeClass("ml-open");
-			$(".js-breadcrumb").removeClass("mr-open");
 		}
 		if (WINDOW < 768) {
 			$(".js-navbar-collapse").removeClass("show");
@@ -158,8 +138,6 @@ $(function () {//JS開頭
 	if (isAndroid()) {
 		$('.js-side-menu').addClass("close");
 		$('.js-side-menu-right').addClass("close");
-		$(".js-breadcrumb").removeClass("ml-open");
-		$(".js-breadcrumb").removeClass("mr-open");
 		$(".js-navbar-collapse").removeClass("show");
 		$(".js-nav-toggler").addClass("collapsed");
 	} else {

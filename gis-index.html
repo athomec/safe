@@ -182,50 +182,50 @@
                                     </button>
                                 </div>
                                 <ul class="modal-btn-list border-end-0 scrollbar-primary js-modal-btn-list"
-                                    style="height: 270px;">
-                                    <li class="modal-btn-list-item">
+                                    style="height: 270px;" role="tablist">
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
                                         <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
                                                 class="me-2"></a>
                                         辦公大樓1F西側
                                         <a href="#" class="img-link ms-auto"><img
                                                 src="./assets/images/ic-download.svg"></a>
                                     </li>
-                                    <li class="modal-btn-list-item">
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
                                         <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
                                                 class="me-2"></a>
                                         辦公大樓1F西側
                                         <a href="#" class="img-link ms-auto"><img
                                                 src="./assets/images/ic-download.svg"></a>
                                     </li>
-                                    <li class="modal-btn-list-item">
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
                                         <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
                                                 class="me-2"></a>
                                         辦公大樓1F西側
                                         <a href="#" class="img-link ms-auto"><img
                                                 src="./assets/images/ic-download.svg"></a>
                                     </li>
-                                    <li class="modal-btn-list-item">
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
                                         <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
                                                 class="me-2"></a>
                                         辦公大樓1F西側
                                         <a href="#" class="img-link ms-auto"><img
                                                 src="./assets/images/ic-download.svg"></a>
                                     </li>
-                                    <li class="modal-btn-list-item">
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
                                         <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
                                                 class="me-2"></a>
                                         辦公大樓1F西側
                                         <a href="#" class="img-link ms-auto"><img
                                                 src="./assets/images/ic-download.svg"></a>
                                     </li>
-                                    <li class="modal-btn-list-item">
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
                                         <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
                                                 class="me-2"></a>
                                         辦公大樓1F西側
                                         <a href="#" class="img-link ms-auto"><img
                                                 src="./assets/images/ic-download.svg"></a>
                                     </li>
-                                    <li class="modal-btn-list-item">
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
                                         <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg"
                                                 class="me-2"></a>
                                         辦公大樓1F西側
@@ -738,6 +738,180 @@
         </div>
     </div>
 </div>
+<!--室內平面圖設定-->
+<div class="modal fade" id="flat-setting" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content px-3">
+            <div class="modal-header">
+                <h5 class="modal-title"><img src="./assets/images/ic-flat.svg" class="me-2">室內平面圖設定</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body px-0">
+                <div class="d-flex align-items-center mb-3">
+                    <h6 class="modal-subtitle mb-0 me-3" data-con="less">
+                        <img src="./assets/images/ic-pin-dark.svg" class="me-1">
+                        <p class="d-flex align-items-center">台灣積體電路<span>15廠</span></p>
+                    </h6>
+                    <p>Fab大樓</p>
+                </div>
+                <div class="container">
+                    <div class="row align-items-stretch g-0 mb-3">
+                        <div class="col-lg-6 d-flex flex-column mb-3 mb-lg-0">
+                            <div class="d-flex bg-gray200 px-3 py-1 flex-shrink-0 border-fix position-relative">
+                                <img src="./assets/images/ic-building-setting.svg" class="me-2">樓層配置
+                            </div>
+                            <div class="modal-show-box js-modal-show-box">
+                                <div class="building" data-con="import">
+                                    <div class="building-on">
+                                        <div class="building-header"><img src="./assets/images/ic-roof.svg" class="w-100"></div>
+                                        <ul class="building-floor">
+                                            <li class="building-floor-item">
+                                                    <div class="building-floor-title">
+                                                        <button class="building-btn btn">3F</button>
+                                                        <button class="btn building-edit" data-con="fill">實驗中心 <img src="./assets/images/ic-edit.svg" alt="編輯"></button>
+                                                    </div>
+                                                    <a href="#" class="building-link"><img src="./assets/images/ic-delete-circle.svg" class="me-1">辦公大樓1F西側</a>
+                                                    <button class="building-import btn btn-dark-primary-color">
+                                                        <img src="./assets/images/ic-chevron-left.svg" alt="載入">
+                                                    </button>
+                                                    
+                                            </li>
+                                            <li class="building-floor-item">
+                                                <div class="building-floor-title">
+                                                    <button class="building-btn btn">2F</button>
+                                                    <button class="btn building-edit">樓層名稱 <img src="./assets/images/ic-edit.svg" alt="編輯"></button>
+                                                </div>
+                                                <div class="building-none"><img src="./assets/images/ic-noflat.svg" class="me-1">未綁定平面圖</div>
+                                                <button class="building-import btn btn-dark-primary-color">
+                                                    <img src="./assets/images/ic-chevron-left.svg" alt="載入">
+                                                </button>
+                                            </li>
+                                            <li class="building-floor-item">
+                                                <div class="building-floor-title">
+                                                    <button class="building-btn btn">1F</button>
+                                                    <button class="btn building-edit">樓層名稱 <img src="./assets/images/ic-edit.svg" alt="編輯"></button>
+                                                </div>
+                                                <div class="building-none"><img src="./assets/images/ic-noflat.svg" class="me-1">未綁定平面圖</div>
+                                                <button class="building-import btn btn-dark-primary-color">
+                                                    <img src="./assets/images/ic-chevron-left.svg" alt="載入">
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="building-under">
+                                        <ul class="building-floor">
+                                            <li class="building-floor-item">
+                                                <div class="building-floor-title">
+                                                    <button class="building-btn btn">B1</button>
+                                                    <button class="btn building-edit" data-con="fill">實驗中心 <img src="./assets/images/ic-edit.svg" alt="編輯"></button>
+                                                </div>
+                                                <a href="#" class="building-link"><img src="./assets/images/ic-delete-circle.svg" class="me-1">辦公大樓1F西側</a>
+                                                <button class="building-import btn btn-dark-primary-color">
+                                                    <img src="./assets/images/ic-chevron-left.svg" alt="載入">
+                                                </button>
+                                            </li>
+                                            <li class="building-floor-item">
+                                                <div class="building-floor-title">
+                                                    <button class="building-btn btn">B2</button>
+                                                    <button class="btn building-edit">樓層名稱 <img src="./assets/images/ic-edit.svg" alt="編輯"></button>
+                                                </div>
+                                                <div class="building-none"><img src="./assets/images/ic-noflat.svg" class="me-1">未綁定平面圖</div>
+                                                <button class="building-import btn btn-dark-primary-color">
+                                                    <img src="./assets/images/ic-chevron-left.svg" alt="載入">
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-flex flex-column">
+                            <div class="d-flex bg-gray200 px-3 py-1 flex-shrink-0">
+                                <img src="./assets/images/ic-flat-list.svg" class="me-2">平面圖清單
+                            </div>
+                            <div class="modal-show-box p-3 bg-gray100">
+                                <div class="d-flex mb-3">
+                                    <div class="input-group me-3">
+                                        <input type="text" class="form-control border-end-0 px-2" placeholder="篩選文字">
+                                        <button class="btn px-2 border-start-0" type="button">
+                                            <img src="./assets/images/ic-search.svg" alt="搜尋">
+                                        </button>
+                                    </div>
+                                    <button class="btn btn-border-primary-color hvr-sweep-to-right flex-shrink-0"
+                                        type="button">
+                                        <img src="./assets/images/ic-add.svg">
+                                        新增
+                                    </button>
+                                </div>
+                                <ul class="modal-btn-list border-end-0 scrollbar-primary js-modal-btn-list"
+                                    style="height: 320px;" data-con="flat" role="tablist">
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg" class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg" class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg" class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg" class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg" class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg" class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg" class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg" class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg" class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                    <li class="modal-btn-list-item" data-bs-toggle="pill">
+                                        <a href="#" class="img-link"><img src="./assets/images/ic-delete-circle.svg" class="me-2"></a>
+                                        辦公大樓1F西側
+                                        <a href="#" class="img-link ms-auto"><img src="./assets/images/ic-download.svg"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button class="btn btn-border-primary-color hvr-sweep-to-bottom ms-auto me-2"><img
+                                src="./assets/images/ic-cancel.svg" alt="取消">
+                            取消</button>
+                        <button class="btn btn-default-primary-color hvr-sweep-to-right"><img
+                                src="./assets/images/ic-save.svg" alt="儲存">
+                            儲存</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!--彈出視窗結束-->
 				<header>
 				<!--主選單開始-->
@@ -930,9 +1104,9 @@
 				</header>
 				<!--內容開始-->
 				<!--麵包屑開始-->
-<nav class="bg-primary-color js-breadcrumb ml-open mr-open">
+<nav class="bg-primary-color scrollbar flex-nowrap">
 	<div class="container">
-		<ol class="breadcrumb scrollbar" data-con="gis">
+		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="mis-index.html" class="breadcrumb-link">室內地圖</a></li>
 			<li class="breadcrumb-item"><a href="#" class="breadcrumb-link">台灣積體電路 - 15B廠</a></li>
 			<li class="breadcrumb-item">
