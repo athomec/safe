@@ -15749,6 +15749,12 @@ footer {
       color: #d6d6d6;
       background: url("../images/sign-photo.svg") no-repeat top center;
       background-size: 75px; }
+      @media (max-width: 991px) {
+        .modal-show-box.none:after {
+          background: url("../images/sign-photo.svg") no-repeat center 20px;
+          background-size: 50px;
+          height: 100px;
+          margin-bottom: 20px; } }
 
 .modal-combo-wrapper {
   display: flex;
