@@ -13369,9 +13369,11 @@ input:focus, select:focus {
     @media (max-width: 375px) {
       .img-list-link {
         font-size: 0.9rem; } }
-    .img-list-link:hover {
+    .img-list-link:hover img {
+      transform: scale(1.05); }
+    .img-list-link.active {
       color: #ED831B; }
-      .img-list-link:hover img {
+      .img-list-link.active img {
         border: 3px solid #ED831B; }
     .img-list-link img {
       border-radius: 0.75rem;
@@ -15087,7 +15089,7 @@ header {
   border-bottom: 3px solid #ED831B;
   align-items: center;
   padding-right: 0 !important;
-  z-index: 800; }
+  z-index: 1080; }
   @media (max-width: 991px) {
     .navbar-brand {
       width: 120px; } }
@@ -15976,6 +15978,19 @@ footer {
         .section-container-id {
           width: 25px;
           height: 25px; } }
+
+.section-backdrop {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  /* 半透明黑色背景 */
+  z-index: 1020;
+  pointer-events: none;
+  opacity: 0;
+  width: 100%;
+  height: calc(100vh - 81px);
+  position: fixed;
+  top: 109px; }
+  .section-backdrop.active {
+    opacity: 1; }
 
 .section-combo {
   background: #fff;
@@ -17403,21 +17418,33 @@ section[data-con="links"] {
     border-bottom: 1px solid #a3a3a3; }
     .building-floor-item:last-child {
       border-bottom: none; }
-    .building-floor-item:nth-child(even) {
+    .building-floor-item[data-con="danger"] {
       background: #fef9f3; }
-      .building-floor-item:nth-child(even) .building-floor-title span {
-        color: #ED831B; }
+      .building-floor-item[data-con="danger"] .building-floor-title span {
+        color: #F15A24; }
   .building-floor-link {
     display: flex;
     align-items: center;
     color: #292929;
-    padding: 0.5rem 1rem; }
+    padding: 0.5rem 1rem;
+    position: relative;
+    overflow: hidden; }
     @media (max-width: 375px) {
       .building-floor-link {
         padding: 0.5rem 0.75rem; } }
+    .building-floor-link:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 4px;
+      height: 100%;
+      background: #ED831B;
+      left: -8px;
+      top: 0; }
     .building-floor-link:hover {
-      color: #292929;
-      background: #ffe8d2; }
+      color: #292929; }
+      .building-floor-link:hover:after {
+        left: 0; }
   .building-floor-title {
     display: flex;
     flex-direction: column;
@@ -17477,8 +17504,6 @@ section[data-con="links"] {
     display: none; }
   .building-under .building-floor-link {
     background: #f5f5f5; }
-    .building-under .building-floor-link:hover {
-      background: #ffe8d2; }
 
 .building-factory {
   min-width: 45px;
@@ -17511,6 +17536,10 @@ section[data-con="links"] {
   width: 100%; }
   .building[data-con="import"] .building-on, .building[data-con="import"] .building-under {
     padding-right: 30px; }
+  .building[data-con="import"] .building-header {
+    width: 90%; }
+  .building[data-con="import"] .building-floor {
+    width: 85%; }
   .building[data-con="import"] .building-floor-item {
     display: flex;
     padding: 0.5rem 1rem;
@@ -17519,27 +17548,61 @@ section[data-con="links"] {
     @media (max-width: 485px) {
       .building[data-con="import"] .building-floor-item {
         padding: 0.5rem 0.75rem; } }
+    @media (max-width: 485px) {
+      .building[data-con="import"] .building-floor-item {
+        flex-direction: column;
+        font-size: 0.95rem; } }
   .building[data-con="import"] .building-floor-title {
-    margin-right: 0.75rem; }
-  .building[data-con="import"] .building-edit {
-    display: flex;
-    align-items: center;
+    margin-right: 0.75rem;
+    width: 80px; }
+    @media (max-width: 485px) {
+      .building[data-con="import"] .building-floor-title {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+        flex-direction: row; } }
+  .building[data-con="import"] .building-floor-form {
+    border: 1px solid #ED831B;
+    border-radius: 0.3rem;
+    width: 56px;
+    height: 26px;
+    padding: 0 0.3rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.125rem; }
+    @media (max-width: 485px) {
+      .building[data-con="import"] .building-floor-form {
+        margin-right: 0.75rem; } }
+    .building[data-con="import"] .building-floor-form::-moz-placeholder {
+      font-weight: 400;
+      color: #a3a3a3 !important; }
+    .building[data-con="import"] .building-floor-form:-ms-input-placeholder {
+      font-weight: 400;
+      color: #a3a3a3 !important; }
+    .building[data-con="import"] .building-floor-form::placeholder {
+      font-weight: 400;
+      color: #a3a3a3 !important; }
+  .building[data-con="import"] .building-floor-edit {
     border-radius: 0;
-    position: relative;
     padding: 0.3rem 0 2px 0;
+    border: 0;
     border-bottom: 1px solid #ED831B;
     font-size: 0.8rem;
-    color: #a3a3a3; }
-    .building[data-con="import"] .building-edit:hover {
-      color: #ED831B; }
-    .building[data-con="import"] .building-edit:focus {
-      border: none;
-      border-bottom: 1px solid #ED831B; }
-    .building[data-con="import"] .building-edit[data-con="fill"] {
-      color: #292929; }
-      .building[data-con="import"] .building-edit[data-con="fill"]:hover {
-        color: #ED831B; }
-    .building[data-con="import"] .building-edit img {
+    background: url("../images/ic-edit.svg") no-repeat right center;
+    background-size: 18px; }
+    .building[data-con="import"] .building-floor-edit::-moz-placeholder {
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: #a3a3a3 !important; }
+    .building[data-con="import"] .building-floor-edit:-ms-input-placeholder {
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: #a3a3a3 !important; }
+    .building[data-con="import"] .building-floor-edit::placeholder {
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: #a3a3a3 !important; }
+    .building[data-con="import"] .building-floor-edit img {
       margin-left: 0.3rem;
       width: 18px; }
   .building[data-con="import"] .building-import {
@@ -17562,16 +17625,6 @@ section[data-con="links"] {
     .building[data-con="import"] .building-btn:hover {
       background: #ED831B;
       color: #fff; }
-  .building[data-con="import"] .building-link {
-    display: flex;
-    align-items: center;
-    color: #525252; }
-    @media (max-width: 485px) {
-      .building[data-con="import"] .building-link {
-        font-size: 0.9rem;
-        align-items: flex-start; } }
-    .building[data-con="import"] .building-link:hover {
-      color: #ED831B; }
   .building[data-con="import"] .building-none {
     justify-content: flex-start; }
     @media (max-width: 485px) {

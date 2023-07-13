@@ -55,6 +55,10 @@ $(function () {//JS開頭
 	$(".js-side-menu-toggler").click(function () {
 		$('.js-side-menu').toggleClass("close");
 	})
+//----------------上方選單半透明背景控制-----------------
+	$(".js-nav-toggler").click(function () {
+		$('.js-section-backdrop').toggleClass("active");
+	})
 	//數字表單
 	const formNumbers = document.querySelectorAll('.form-number');
 
