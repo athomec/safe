@@ -16762,10 +16762,10 @@ section[data-con="links"] {
   box-shadow: 2px 2px 2px #ccc; }
   @media (max-width: 1200px) {
     .side-menu[data-con="map"] {
-      width: 310px;
       height: calc(100vh - 110px); } }
   @media (max-width: 991px) {
     .side-menu[data-con="map"] {
+      width: 310px;
       height: calc(100vh - 99px);
       top: 99px; } }
   @media (max-width: 767px) {
@@ -16801,7 +16801,7 @@ section[data-con="links"] {
     height: 100%; }
   .side-menu[data-con="map"].close {
     left: -380px; }
-    @media (max-width: 1200px) {
+    @media (max-width: 991px) {
       .side-menu[data-con="map"].close {
         left: -310px; } }
     .side-menu[data-con="map"].close .side-menu-toggler img {
@@ -16824,7 +16824,7 @@ section[data-con="links"] {
   .side-menu[data-position="right"].close {
     left: auto;
     right: -380px; }
-    @media (max-width: 1200px) {
+    @media (max-width: 991px) {
       .side-menu[data-position="right"].close {
         left: auto;
         right: -310px; } }
