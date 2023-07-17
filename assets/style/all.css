@@ -16873,7 +16873,7 @@ section[data-con="links"] {
 
 .side-menu-body-title {
   display: flex;
-  align-items: center;
+  align-items: start;
   font-size: 1.125rem;
   margin-bottom: 0;
   font-weight: 600; }
