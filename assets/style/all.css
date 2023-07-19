@@ -12229,10 +12229,12 @@ input:focus, select:focus {
 
 /*-----------------列表樣式---------------------*/
 .accordion-body {
-  position: relative; }
-  @media (max-width: 767px) {
+  position: relative;
+  padding-left: 28px !important; }
+  @media (max-width: 375px) {
     .accordion-body {
-      font-size: 0.9rem; } }
+      font-size: 0.9rem;
+      padding-left: 0 !important; } }
   .accordion-body:before {
     content: "A.";
     display: block;
