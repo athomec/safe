@@ -13299,12 +13299,10 @@ input:focus, select:focus {
     @media (max-width: 1200px) {
       .article-title {
         flex-direction: column-reverse;
-        font-size: 1.8rem; } }
-    @media (max-width: 1200px) {
-      .article-title {
-        font-size: 1.5rem;
-        font-weight: 600;
         padding-bottom: 15px; } }
+    @media (max-width: 576px) {
+      .article-title {
+        font-size: 1.125rem; } }
   .article-subtitle {
     font-size: 1.125rem;
     font-weight: 400; }
@@ -15562,7 +15560,8 @@ footer {
   background: #fff;
   border-radius: 10px;
   opacity: 0;
-  border: 1px solid #ED831B; }
+  border: 1px solid #ED831B;
+  pointer-events: none; }
   @media (max-width: 991px) {
     .gotop {
       width: 44px;
@@ -15585,7 +15584,8 @@ footer {
     .gotop:hover img {
       filter: invert(100%) sepia(0%) saturate(7469%) hue-rotate(68deg) brightness(500%) contrast(97%); }
   .gotop.show {
-    opacity: 1; }
+    opacity: 1;
+    pointer-events: initial; }
 
 /*--------------------視窗開始------------------*/
 .modal {
