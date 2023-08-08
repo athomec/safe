@@ -16652,10 +16652,16 @@ section[data-con="links"] {
   padding-bottom: 0 !important; }
   .topic[data-con="news"] .topic-header {
     height: 160px;
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 1.5rem !important; }
+    @media (max-width: 1550px) {
+      .topic[data-con="news"] .topic-header {
+        height: 150px;
+        margin-bottom: 1rem !important; } }
     @media (max-width: 991px) {
       .topic[data-con="news"] .topic-header {
-        height: 150px; } }
+        height: 150px;
+        margin-bottom: 0 !important; } }
     @media (max-width: 767px) {
       .topic[data-con="news"] .topic-header {
         height: 120px; } }
@@ -16687,7 +16693,7 @@ section[data-con="links"] {
 
 /*--------------------側邊選單開始------------------*/
 .side-menu {
-  width: 20%;
+  width: 220px;
   margin-right: 48px;
   flex-shrink: 0;
   transition: all 0.2s ease;
@@ -16696,7 +16702,6 @@ section[data-con="links"] {
   border-right: 1px solid #e0e0e0; }
   @media (max-width: 1550px) {
     .side-menu {
-      width: 220px;
       margin-right: 32px; } }
   @media (max-width: 991px) {
     .side-menu {
