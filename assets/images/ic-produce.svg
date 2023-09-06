@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="ic-produce" transform="translate(-66 -773.5)">
+    <circle id="Ellipse_36" data-name="Ellipse 36" cx="13" cy="13" r="13" transform="translate(66 773.5)" fill="#766dff"/>
+    <g id="oil_barrel_black_24dp" transform="translate(70.551 777.551)">
+      <g id="Group_481" data-name="Group 481" transform="translate(0.449 0.449)">
+        <rect id="Rectangle_308" data-name="Rectangle 308" width="16" height="16" fill="none"/>
+      </g>
+      <g id="Group_483" data-name="Group 483" transform="translate(2.159 2.159)">
+        <g id="Group_482" data-name="Group 482">
+          <path id="Path_502" data-name="Path 502" d="M9,11.794a2.172,2.172,0,0,0,4.343,0c0-.948-.384-1.223-2.172-3.294C9.376,10.585,9,10.853,9,11.794Z" transform="translate(-4.657 -4.519)" fill="#fff"/>
+          <path id="Path_503" data-name="Path 503" d="M15.306,10.239a.724.724,0,1,0,0-1.448h-.724V4.448h.724a.724.724,0,1,0,0-1.448H3.724a.724.724,0,0,0,0,1.448h.724V8.791H3.724a.724.724,0,0,0,0,1.448h.724v4.343H3.724a.724.724,0,0,0,0,1.448H15.306a.724.724,0,1,0,0-1.448h-.724V10.239Zm-2.172,4.343H5.9V10.239a.724.724,0,1,0,0-1.448V4.448h7.239V8.791a.724.724,0,0,0,0,1.448Z" transform="translate(-3 -3)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
