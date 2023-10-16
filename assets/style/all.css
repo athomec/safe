@@ -19199,6 +19199,12 @@ footer {
       .modal-list-link:hover span {
         color: #F15A24 !important; }
 
+#gis-safe {
+  height: 415px; }
+  @media (max-width: 428px) {
+    #gis-safe {
+      height: 535px; } }
+
 .modal-show-box {
   border: 1px solid #e0e0e0;
   height: 100%;
