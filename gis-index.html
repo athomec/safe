@@ -24,91 +24,9 @@
 <div class="modal fade" id="safe-info" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content px-3">
-            <div class="modal-header">
-                <h5 class="modal-title"><img src="./assets/images/ic-safe-info.svg" class="me-2">化學物質安全資料表</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="d-flex justify-content-between mb-3">
-                    <img src="./assets/images/sign-lab.svg" class="me-2">
-                    <div class="modal-subtitle">
-                        <p>108-10-1<span>甲基異丁酮</span></p>
-                        <span>Methyl isobutyl ketone</span>
-                    </div>
-                    <button class="btn tiny-btn flex-shrink-0 ms-auto"><img src="./assets/images/ic-edit.svg"
-                            alt="編輯"></button>
-                </div>
-                <div class="modal-list bg-primary-xlight-color mb-3">
-                    <h6 class="modal-list-title">業者自備</h6>
-                    <ul class="w-100 scrollbar-primary py-2" style="height: 120px;">
-                        <li class="modal-list-item">
-                            <a href="#" class="modal-list-link">
-                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
-                                <img src="./assets/images/ic-download.svg" class="ms-auto">
-                            </a>
-                        </li>
-                        <li class="modal-list-item">
-                            <a href="#" class="modal-list-link">
-                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
-                                <img src="./assets/images/ic-download.svg" class="ms-auto">
-                            </a>
-                        </li>
-                        <li class="modal-list-item">
-                            <a href="#" class="modal-list-link">
-                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
-                                <img src="./assets/images/ic-download.svg" class="ms-auto">
-                            </a>
-                        </li>
-                        <li class="modal-list-item">
-                            <a href="#" class="modal-list-link">
-                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
-                                <img src="./assets/images/ic-download.svg" class="ms-auto">
-                            </a>
-                        </li>
-                        <li class="modal-list-item">
-                            <a href="#" class="modal-list-link">
-                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
-                                <img src="./assets/images/ic-download.svg" class="ms-auto">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="modal-list bg-gray100">
-                    <h6 class="modal-list-title">業者自備</h6>
-                    <ul class="w-100 scrollbar-primary py-2" style="height: 120px;">
-                        <li class="modal-list-item">
-                            <a href="#" class="modal-list-link">
-                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
-                                <img src="./assets/images/ic-download.svg" class="ms-auto">
-                            </a>
-                        </li>
-                        <li class="modal-list-item">
-                            <a href="#" class="modal-list-link">
-                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
-                                <img src="./assets/images/ic-download.svg" class="ms-auto">
-                            </a>
-                        </li>
-                        <li class="modal-list-item">
-                            <a href="#" class="modal-list-link">
-                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
-                                <img src="./assets/images/ic-download.svg" class="ms-auto">
-                            </a>
-                        </li>
-                        <li class="modal-list-item">
-                            <a href="#" class="modal-list-link">
-                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
-                                <img src="./assets/images/ic-download.svg" class="ms-auto">
-                            </a>
-                        </li>
-                        <li class="modal-list-item">
-                            <a href="#" class="modal-list-link">
-                                <span class="primary-color me-2">108-10-01</span> 景明貿易 2022/11/23
-                                <img src="./assets/images/ic-download.svg" class="ms-auto">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <iframe src="gis-chemicals-safe-list.html" frameborder="0" scrolling="auto" id="gis-safe" onload="this.height=415"
+            class="js-iframe w-100">
+        </iframe>
         </div>
     </div>
 </div>
@@ -1287,5 +1205,10 @@
 				const parentModal = document.querySelector(modalId);
 				$(parentModal).modal("show");
 			}
+			//iframe內網頁呼叫關閉modal
+				function closeParentModal(modalId) {
+					const parentModal = document.querySelector(modalId);
+					$(parentModal).modal("hide");
+				}
 		</script>
 </html>
